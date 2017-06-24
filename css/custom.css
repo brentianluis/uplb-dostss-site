@@ -5,8 +5,10 @@
  */
 
 body {
-	background-color: #cccccc;
+	background-color: #f9f9fb;
 	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	font-weight: 200;
 	height: 100%;
 
 }
@@ -25,60 +27,73 @@ html {
 
 /* Navbar */
 
-.navbar-brand > img {
-	display: inline-block;
-	height: 80px;
+.navbar {
+	border: none;
+	min-height: 80px;
+    -webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 0 8px 6px -6px #999;
+    box-shadow: 0 8px 6px -6px #999;
 }
 
 .navbar-brand > p {
+	color: #000;
+	display: inline-block;
+	font-size: 22px;
+	font-weight: 500;
+	vertical-align: middle;
+}
+
+.navbar-brand > p > img {
+	height: 22px;
 	display: inline-block;
 	vertical-align: middle;
 }
 
-.navbar-custom {
-	background-color: transparent;
-	border: none;
-	font-weight: 700;
-	min-height: 110px;
-	text-transform: uppercase;
-}
-
-.navbar-default .navbar-brand {
-	color: white;
+.navbar-default {
+	background-color: #fff;
+	padding-top: 15px;
 }
 
 .navbar-default .navbar-nav > li > a {
-	color: white;
-	font-size: 15px;
-	margin-top: 30px;
-	vertical-align: middle;
+    color: #002b3c;
+    font-weight: 500;
 }
 
-.navbar-nav .dropdown-menu {
-	font-size: 15px;
+
+@media(min-width:768px) {
+	.navbar-default {
+    	-webkit-transition: all .35s;
+    	-moz-transition: all .35s;
+    	transition: all .35s;
+    	/* Add additional styles here for the UNCOLLAPSED state */
+  	}
+  
+  	.navbar-default.affix {
+    	background-color: #000000;
+		border: none;
+    	min-height: 50px;
+		padding-top: 0px;
+    /* Add additional styles here for the COLLAPSED state */
+  	}
+
+  	.navbar-default.affix .navbar-brand p {
+  		color: #ffffff;
+  	}
+
+	.navbar-default.affix .navbar-nav > li > a {
+    	color: #fff;
+    	font-weight: 500;
+	}
 }
 
 /* Header */
 
 .org-header {
-	color: white;
+	background-color: #cccccc;
+	color: #fff;
 	display: table;
 	height: 100%;
 	width: 100%;
-}
-
-.org-header .org-header-bg {
-	background-image: url();
-	background-position: center;
-    background-size: cover;
-    -moz-background-size: cover;
-  	-ms-background-size: cover;
-    -o-background-size: cover;
-    -webkit-background-size: cover;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    z-index: -1;
 }
 
 .org-header .container {
@@ -86,54 +101,54 @@ html {
 	vertical-align: middle;
 }
 
-.org-header h1 {
-	font-family: 'Cormorant+Garamond', serif;
-	font-size: 40px;
-	font-style: italic;
+#org-motto {
+	font-size: 80px;
+	font-weight: 500;
 }
 
-.org-header h2 {
-	font-weight: 300;
+#org-name {
+	font-size: 30px;
+	font-weight: 200;
 }
 
 /* About */
 
-.org-about {
+#org-about {
 	background-color: #ffffff;
 	display: table;
 	height: 50%;
 	width: 100%;
 }
 
-.org-about .container {
+#org-about .container {
 	display: table-cell;
 	vertical-align: middle;
 }
 
 /* History */
 
-.org-history {
-	background-color: #F5F5F5;
+#org-history {
+	background-color: #f9f9fb;
 	display: table;
 	height: 100%;
 	width: 100%;
 }
 
-.org-history .container {
+#org-history .container {
 	display: table-cell;
 	vertical-align: middle;
 }
 
 /* Members */
 
-.org-members {
+#org-members {
 	background-color: #ffffff;
 	display: table;
 	height: 100%;
 	width: 100%;
 }
 
-.org-members .container {
+#org-members .container {
 	display: table-cell;
 	vertical-align: middle;
 }
@@ -147,16 +162,24 @@ html {
 
 /* Contact */
 
-.org-contact {
+#org-contact {
 	background-color: #F5F5F5;
 	display: table;
-	height: 75%;
+	height: 100%;
 	width: 100%;
 }
 
-.org-contact .container {
+#org-contact .container {
 	display: table-cell;
 	vertical-align: middle;
+}
+
+#org-contact .container .glyphicon {
+	font-size: 20px;
+}
+
+#org-contact .container .table > tbody > tr > td {
+	border: none;
 }
 
 /* Footer */
@@ -172,4 +195,8 @@ html {
 .footer .container {
 	display: table-cell;
 	vertical-align: middle;
+}
+
+.footer .container p {
+	font-size: 14px;
 }
