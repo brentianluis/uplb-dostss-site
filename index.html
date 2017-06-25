@@ -14,6 +14,14 @@
     <meta name="keywords" content="UPLB,DOST,Scholars,Society,UPLBDOSTSS,SS">
     <meta name="author" content="Brent Ian Luis">
 
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="152x152" href="http://static.tumblr.com/jyrtrr5/pxvos37av/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="http://static.tumblr.com/jyrtrr5/CWMos37ba/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="http://static.tumblr.com/jyrtrr5/x3gos37bp/favicon-16x16.png">
+    <link rel="manifest" href="http://static.tumblr.com/jyrtrr5/95Zos37c5/manifest.json">
+    <link rel="mask-icon" href="http://static.tumblr.com/jyrtrr5/Jg1os37cm/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="theme-color" content="#ffffff">
+
     <!-- Open Graph -->
     <meta property="og:url" content="https://uplbdostss1985.org" />
     <meta property="og:type" content="website" />
@@ -24,17 +32,16 @@
     <title>UPLB DOST Scholars' Society</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom CSS -->
     <link href="css/custom.css" rel="stylesheet">
-
-    <!-- Bootstrap Core CSS
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    -->
-
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,500" rel="stylesheet">
+    <!-- ScrollReveal -->
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+    <script>
+      window.sr = ScrollReveal();
+    </script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -45,7 +52,7 @@
   
   <body>
     <!-- Navbar-->
-    <nav id="navbar-custom" class="navbar navbar-default navbar-fixed-top">
+    <nav id="org-navbar" class="navbar navbar-default navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#orgNavbar" aria-expanded="false" aria-controls="navbar">
@@ -55,9 +62,10 @@
             <span class="icon-bar"></span>
           </button>
           <a class="navbar-brand">
-            <p>UPLB D<img src="./resources/img/org-seal.png" class="img-responsive" alt="UPLB DOST Scholars' Society">ST SS</p>
+            <p>UPLB DOST SS</p>
           </a>
         </div>
+
         <div id="orgNavbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
             <li><a href="https://uplbdostss1985.tumblr.com">HOME</a></li>
@@ -72,26 +80,19 @@
               </ul>
             </li>
             <li><a href="#">SIKAT</a></li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">EVENTS <span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="#">Event 1</a></li>
-                <li class="divider"></li>
-                <li><a href="#">Event 2</a></li>
-              </ul>
-            </li>
+            <li><a href="#">EVENTS</a></li>
             <li><a href="#org-contact">CONTACT</a></li>
           </ul>
-        </div><!--/.nav-collapse -->
+        </div>
       </div>
     </nav>
 
     <!-- Header -->
-    <header class="org-header">
-      <div class="org-header-bg"></div>
+    <header id="org-header">
+      <div id="org-header-bg"></div>
       <div class="container">
-          <p id="org-motto">SERVE. LEAD. EXCEL.</p>
-          <p id="org-name">University of the Philippines Los Baños<br>
+          <p class="reveal" id="org-motto">SERVE. LEAD. EXCEL.</p>
+          <p class="reveal" id="org-name">University of the Philippines Los Baños<br>
           Department of Science and Technology<br>
           Scholars' Society</p> 
       </div>
@@ -100,32 +101,33 @@
     <!-- About -->
     <section id="org-about">
       <div class="container">
-        <h2 class="text-center">About Us</h2>
+        <h2 class="text-center reveal">About Us</h2>
         <hr>
         <div class="row">
-          <p class="col-md-10 col-md-offset-1 text-justify">The spirit of scholarship reigns in those who seek rational knowledge and drive it into action for the better and the common good. Since the beginning, the UPLB Department of Science and Technology Scholars’ Society (SS) has envisioned a society of boundless thinkers that seek genuine empowerment. The organization believes in the advancement of the Country through the promotion of science and technology. We are bounded by our goals. We are inspired by our existence.</p>       
+          <p class="col-md-10 col-md-offset-1 text-justify reveal">The spirit of scholarship reigns in those who seek rational knowledge and drive it into action for the better and the common good. Since the beginning, the UPLB Department of Science and Technology Scholars’ Society (SS) has envisioned a society of boundless thinkers that seek genuine empowerment. The organization believes in the advancement of the Country through the promotion of science and technology. We are bounded by our goals. We are inspired by our existence.</p>       
         </div>
-      </div>      
+      </div>
     </section>
+    <div id="org-about-bg"></div>
 
     <!-- History -->
     <section id="org-history">
       <div class="container">
-        <h2 class="text-center">Our History</h2>
+        <h2 class="reveal text-center">Our History</h2>
         <hr>
         <div class="row">
-          <div class="col-md-4 col-md-offset-1 text-justify">
+          <div class="col-md-4 col-md-offset-1 reveal text-justify">
             <p>In 1985, the National Science and Technology Authority (NSTA) scholars convened after realizing the need for an organization that will embody their ideals of maintaining academic excellence. Several meetings were held to discuss the plan regarding the establishment of a formal organization with its own constitution and set of by-laws. Soon after the ratification of the constitution, the UPLB NSTA Scholars’ Society was recognized as an academic organization on November 25, 1985.</p>
             <p>The first president of NSTA-SS was Meinrado F. Samala. All scholars of NSTA were recognized as members of the newly formed society. They were active in participating in various quiz contests, which won them several awards. But this dynamism lasted only for a year.</p>
             <p>In 1987, some of the charter members headed by Lope Doromal decided to revive the organization. This time it was named UPLB DOST Scholars’ Society (UPLB DOST-SS) under the new leadership of Anna Marie V. Magbanua.</p>
           </div>
           <div class="col-md-5">
-
+            <!-- Insert Carousel here -->
           </div>
         </div>
         <br>
         <div class="row">
-          <div class="col-md-10 col-md-offset-1">
+          <div class="col-md-10 col-md-offset-1 reveal">
             <p class="lead text-center">To date, UPLB DOST SS has 49 resident members who pull their talents together in sponsoring activities that promote better understanding of science and technology in the spirit of service.</p>
           </div>
         </div>     
@@ -135,13 +137,13 @@
     <!-- Members -->
     <section id="org-members">
       <div class="container text-center">
-        <h2>The Members</h2>
+        <h2 class="reveal">The Members</h2>
         <hr>
-        <h3>Executive Committee</h3>
-        <p class="col-md-8 col-md-offset-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae tempus diam. Aenean condimentum efficitur dui. Maecenas eros sem, consequat et consectetur quis, laoreet quis.</p>
+        <h3 class="reveal">Executive Committee</h3>
+        <p class="col-md-8 col-md-offset-2 reveal">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae tempus diam. Aenean condimentum efficitur dui. Maecenas eros sem, consequat et consectetur quis, laoreet quis.</p>
         <div class="row">
           <div class="col-md-2 col-md-offset-2">
-            <p><img class="img-circle" src="http://via.placeholder.com/150x150"><br>
+            <p class="reveal"><img class="img-circle" src="http://via.placeholder.com/150x150"><br>
             Name<br>President<br>Degree Program</p>
           </div>
           <div class="col-md-2">
@@ -192,24 +194,26 @@
           </div>
           <div class="col-md-4">
             <h3>Contact Us</h3>
-              <div class="table-responsive">          
-                <table class="table">
-                  <tbody>
-                    <tr>
-                      <td><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></td>
-                      <td class="text-left">uplbdostss1985@gmail.com</td>
-                    </tr>
-                    <tr>
-                      <td><span class="glyphicon glyphicon-home" aria-hidden="true"></span></td>
-                      <td class="text-left">008 Obcemea's Apts. Unit B, Demarses Subd., Batong Malake, Los Banos, Laguna</td>
-                    </tr>
-                    <tr>
-                      <td><span class="glyphicon glyphicon-phone" aria-hidden="true"></span></td>
-                      <td class="text-left">(+63) 926 229 5954</td>
-                    </tr>
-                  </tbody>
-                </table>
+             <div class="row">
+              <div class="col-md-1 col-md-offset-1">
+                <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
               </div>
+              <div class="col-md-9">
+                <p>uplbdostss1985@gmail.com</p>
+              </div>
+              <div class="col-md-1 col-md-offset-1">
+                <span class="glyphicon glyphicon-home" aria-hidden="true"></span>
+              </div>
+              <div class="col-md-9">
+                <p class="text-justify">008 Obcemea's Apts. Unit B, Demarses Subd., Batong Malake, Los Banos, Laguna</p>
+              </div>
+              <div class="col-md-1 col-md-offset-1">
+                <span class="glyphicon glyphicon-phone" aria-hidden="true"></span>
+              </div>
+              <div class="col-md-9">
+                <p>(+63) 926 229 5954</p>
+              </div>
+             </div>
           </div>
           <div class="col-md-4">
             <h3>Ask Away</h3>
@@ -227,23 +231,13 @@
 
     <!-- Custom JS -->
     <script src="js/custom.js"></script>
-
     <!-- Google Map -->
     <script src="https://maps.googleapis.com/maps/api/js?callback=orgMap"></script>
-
-    <!-- Twitter Widget -->
-    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
     <!-- jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-
-    <!-- Bootstrap Core Javascript
-    <script async src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js></script>
-    -->
-
     <!-- Bootstrap Core Javascript -->
-    <script src="js/bootstrap.min.js"></script>
-
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- Navbar Scrollspy & Affix -->
     <script>
       $(document).ready(function(){
         $('body').scrollspy({target: ".navbar", offset: 50});
@@ -263,7 +257,7 @@
         })
       })
 
-      $('#navbar-custom').affix({
+      $('#org-navbar').affix({
         offset: {
           top: 100
         }

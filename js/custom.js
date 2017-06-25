@@ -4,6 +4,12 @@
  *	Copyright (c) 2017 Brent Ian Luis
  */
 
+//ScrollReveal
+sr.reveal('.reveal', {
+	container: '#org-header',
+	duration: 2000
+});
+
 // Google Map
 function orgMap() {
     var mapOptions = {
