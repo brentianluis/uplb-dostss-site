@@ -4,10 +4,34 @@
  *	Copyright (c) 2017 Brent Ian Luis
  */
 
+//Scrollspy
+$('body').scrollspy({target: ".navbar", offset: 50});
+
+$("#ssNavbar a").on('click', function(event) {
+  if (this.hash !== "") {
+    event.preventDefault();
+    var hash = this.hash;
+
+    $('html, body').animate({
+      scrollTop: $(hash).offset().top
+    }, 800, function(){
+      window.location.hash = hash;
+    });
+  }
+});
+
+//Hide Menu
+$(document).on('click','.navbar-collapse.in',function(e) {
+  if( $(e.target).is('a') && $(e.target).attr('class') != 'dropdown-toggle' ) {
+      $(this).collapse('hide');
+  }
+});
+
 //ScrollReveal
-sr.reveal('.reveal', {
-	container: '#org-header',
-	duration: 2000
+sr.reveal('.scroll-reveal', {
+	origin: 'bottom',
+	mobile: true,
+	reset: true,
 });
 
 // Google Map

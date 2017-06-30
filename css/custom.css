@@ -4,222 +4,179 @@
  *	Copyright (c) 2017 Brent Ian Luis
  */
 
+/**
+ *	Website Color Scheme:
+ *	#4ac4d3 Shade of Blue
+ *	#ffcd00 Tangerine Yellow
+ *	#0b3c5d Prussian Blue
+ *	#1d2731 Ivory Black
+ */
+
+html,
 body {
-	background-color: #f9f9fb;
-	font-family: 'Montserrat', sans-serif;
-	font-size: 15px;
-	font-weight: 200;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 200;
+  background-color: #f9f9fb;
+}
+
+.ss-section {
+	display: table;
+	width: 100%;
 	height: 100%;
-
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 
-hr {
-	background-color: #4AC4D3;
-	border: none;
-	color: #4AC4D3;
-	height: 3px;
-	width: 50px;
+.ss-section .container {
+	display: table-cell;
+	vertical-align: middle;
 }
 
-html {
-	height: 100%;
+.col-center {
+	display: inline-block;
+  float: none;
 }
+
+h2 { font-weight: 500; }
+h3 { font-weight: 300; }
 
 /* Navbar */
 
-@media(min-width:768px) {
-	.navbar {
-		border: none;
-		min-height: 80px;
-	}
+.navbar-brand,
+.navbar-default .navbar-nav > li > a {
+	font-weight: 500;
+}
 
-	.navbar-default {
-    	-webkit-transition: all .35s;
-    	-moz-transition: all .35s;
-    	transition: all .35s;
-    	background-color: transparent;
-    	padding-top: 30px;
-  	}
+.navbar-default { background-color: #ffffff; }
+.navbar-default .navbar-toggle .icon-bar { background-color: #0b3c5d; }
+.navbar-default .navbar-nav .open .dropdown-menu > li > a { font-weight: 300; }
 
-	.navbar-brand > p {
-		color: #ffffff;
-		display: inline-block;
-		font-size: 25px;
-		font-weight: 500;
-		vertical-align: middle;
-	}
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav > li > a,
+.navbar-default .navbar-nav .open .dropdown-menu> li > a {
+	color: #0b3c5d;
+}
 
-	.navbar-brand > p > img {
-		height: 22px;
-		display: inline-block;
-		vertical-align: middle;
-	}
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
 
-	.navbar-default .navbar-nav > li > a {
-	    color: #ffffff;
-	    font-size: 16px;
-	    font-weight: 500;
-	}
-  
-  	.navbar-default.affix {
-    	background-color: #ffffff;
-		border: none;
-    	min-height: 80px;
-    	padding-top: 15px;
-	    -webkit-box-shadow: 0 8px 6px -6px #999;
-	    -moz-box-shadow: 0 8px 6px -6px #999;
-	    box-shadow: 0 8px 6px -6px #999;
-  	}
+.navbar .navbar-collapse {
+  text-align: center;
+}
 
-  	.navbar-default.affix .navbar-brand p {
-  		color: #000000;
-  		font-size: 20px;
-  		font-weight: 500;
-  	}
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+	background-color: transparent;
+}
 
-	.navbar-default.affix .navbar-nav > li > a {
-    	color: #000000;
-    	font-size: 15px;
-    	font-weight: 200;
-	}
+.navbar-toggle { border: none; }
+
+.navbar-collapse.in {
+    overflow: hidden;
+    max-height: none;
+    height: auto;
 }
 
 /* Header */
 
-#org-header {
+#ss-header {
 	background-color: transparent;
-	color: #fff;
-	display: table;
-	height: 100%;
-	width: 100%;
+  background: url(../resources/img/ss-header-bg.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
 }
 
-#org-header-bg {
-	background-image: url('http://via.placeholder.com/1024x768');
-	background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	height: 100%;
-	position: absolute;
-	width: 100%;
+#ss-motto,
+#ss-name {
+	color: #ffffff;
 }
 
-#org-header .container {
-	display: table-cell;
-	vertical-align: middle;
-}
+#ss-header .container #ss-name { font-weight: 300; }
 
-#org-motto {
-	font-size: 80px;
-	font-weight: 500;
-}
+/* The Organization */
 
-#org-name {
-	font-size: 30px;
-	font-weight: 200;
-}
+#ss-organization .container img { height: 150px; }
 
-/* About */
+/* Our Goal */
 
-#org-about {
-	background-color: #ffffff;
-	display: table;
-	height: 50%;
-	width: 100%;
-}
-
-#org-about .container {
-	display: table-cell;
-	vertical-align: middle;
-}
-
-@media only screen and (max-device-width: 1024px) {
-    #org-about-bg {
-        background-attachment: scroll;
-    }
-}
-
-#org-about-bg {
-	background-image: url('http://via.placeholder.com/1024x768');
-	background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	height: 50%;
-	position: relative;
-	width: 100%;
-}
-
-/* History */
-
-#org-history {
-	background-color: #f9f9fb;
-	display: table;
-	height: 100%;
-	width: 100%;
-}
-
-#org-history .container {
-	display: table-cell;
-	vertical-align: middle;
-}
+#ss-goal { background-color: #0b3c5d; }
+#ss-goal .container {	color: #ffffff; }
+#ss-goal .container h3 { color: #ffcd00; }
 
 /* Members */
 
-#org-members {
-	background-color: #ffffff;
-	display: table;
-	height: 100%;
-	width: 100%;
+#ss-members .carousel-control { background: none !important; }
+
+#ss-members .carousel-inner img {
+	display: inline-block;
+  float: none;
+  width: auto;
+  height: auto;
 }
 
-#org-members .container {
-	display: table-cell;
-	vertical-align: middle;
+/* Events */
+
+#ss-events .btn-default {
+    color: #333;
+    background-color: transparent;
+    border: 1px solid;
 }
 
-/* Map */
+/* Sikat */
 
-#map {
-	height: 50%;
-	width: 100%;
+#ss-sikat {	background-color: #0b3c5d; }
+#ss-sikat p { color: #ffffff; }
+#ss-sikat h2 { color: #ffcd00; }
+
+#ss-sikat .btn-default {
+    color: #0b3c5d;
+    background-color: #ffcd00;
+    border: none;
 }
 
 /* Contact */
 
-#org-contact {
-	background-color: #F5F5F5;
-	display: table;
-	height: 100%;
-	width: 100%;
-}
-
-#org-contact .container {
-	display: table-cell;
-	vertical-align: middle;
-}
-
-#org-contact .container .glyphicon {
-	font-size: 20px;
-}
+#ss-contact { background-color: #1d2731; }
+#ss-contact .container { color: #ffffff; }
 
 /* Footer */
-
-.footer {
-	background-color: #000000;
-	color: #ffffff;
-	display: table;
+#ss-footer {
 	height: 10%;
-	width: 100%;
+	padding-top: 0;
+	padding-bottom: 0; 
+	background-color: #000000;
 }
 
-.footer .container {
-	display: table-cell;
-	vertical-align: middle;
+#ss-footer .container {
+	color: #ffffff;
+	font-size: 13px;
 }
 
-.footer .container p {
-	font-size: 14px;
-	font-weight: 200;
+ /* Small Devices, Tablets */
+@media only screen and (min-width : 768px){
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px){
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px){
+
 }
