@@ -3,11 +3,11 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1">    
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">    
     <title>UPLB DOST Scholars&#39; Society</title>
     <meta name="description" content="We are the UPLB DOST SS, we exist to promote academic excellence not just among our members but also among the students of the university.">
     <meta name="keywords" content="UPLB,DOST,SS,UPLBDOSTSS,Scholars Society,Scholars,Society">
-    <meta name="author" content="Brent Ian Luis">
+    <meta name="author" content="UPLB DOST Scholars&#39; Society">
 
     <!--
       Favicons
@@ -32,7 +32,6 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
     <!--
       Custom CSS
       TODO: Replace hypertext reference after custom CSS upload in Tumblr theme assets
@@ -40,10 +39,20 @@
     <link rel="stylesheet" href="css/custom.css">
 
     <!-- Google Fonts -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:200,300,500">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500">
+
+    <!-- Font Awesome -->
+    <script src="https://use.fontawesome.com/5113c052d8.js"></script>
+
+    <!-- ScrollReveal -->
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+    <script>
+      window.sr = ScrollReveal();
+    </script>
   </head>
   
   <body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <!-- Facebook Widget -->
     <div id="fb-root"></div>
     <script>(function(d, s, id) {
       var js, fjs = d.getElementsByTagName(s)[0];
@@ -70,10 +79,11 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="http://uplbdostss1985.tumblr.com">HOME</a></li>
+            <li><a href="#">HOME</a></li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">ABOUT <span class="caret"></span></a>
               <ul class="dropdown-menu">
+                <li role="separator" class="divider hidden-xs"></li>
                 <li><a href="#ss-organization">The Organization</a></li>
                 <li role="separator" class="divider hidden-xs"></li>
                 <li><a href="#ss-goal">Our Goal</a></li>
@@ -81,9 +91,10 @@
                 <li><a href="#ss-history">Our History</a></li>
                 <li role="separator" class="divider hidden-xs"></li>
                 <li><a href="#ss-members">The Members</a></li>
+                <li role="separator" class="divider hidden-xs"></li>
               </ul>
-            <li><a href="#ss-sikat">SIKAT</a></li>
             <li><a href="#ss-events">EVENTS</a></li>
+            <li><a href="#ss-sikat">SIKAT</a></li>
             <li><a href="#ss-contact">CONTACT</a></li>
             </li>
           </ul>
@@ -94,25 +105,20 @@
     <!-- Header -->
     <header class="ss-section" id="ss-header">
       <div class="container text-center">
-        <h1 id="ss-motto">SERVE. LEAD. EXCEL.</h1>
-        <h4 id="ss-name">
-          University of the Philippines Los Ban&#771;os<br>
-          Department of Science and Technology<br>
-          Scholars&#39; Society
-        </h4>
-        </div><!-- /.container -->
+        
+      </div><!-- /.container -->
     </header>
 
     <!-- The Organization -->
     <section class="ss-section" id="ss-organization">
       <div class="container">
         <div class="row text-center">
-          <h2>T H E<br>O R G</h2>
-          <div class="col-xs-11 col-center">
+          <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2">
             <img class="center-block img-responsive" src="resources/img/org-seal.png" alt="UPLB DOST Scholar's Society Seal">
+            <h2 class="text-center">The Organization</h2>
             <br>
-            <p class="text-justify">The spirit of scholarship reigns in those who seek rational knowledge and drive it into action for the better and the common good. Since the beginning, the UPLB Department of Science and Technology Scholars’ Society (SS) has envisioned a society of boundless thinkers that seek genuine empowerment.</p>
-            <p class="text-justify">The organization believes in the advancement of the country through the promotion of science and technology. We are bounded by our goals. We are inspired by our existence.</p>
+            <p class="text-left scroll-reveal">The spirit of scholarship reigns in those who seek rational knowledge and drive it into action for the better and the common good. Since the beginning, the UPLB Department of Science and Technology Scholars’ Society (SS) has envisioned <strong>a society of boundless thinkers</strong> that seek genuine empowerment.</p>
+            <p class="text-left scroll-reveal">The organization believes in the advancement of the country through the promotion of science and technology. We are bounded by our goals. We are inspired by our existence.</p>
           </div>
         </div>
       </div>
@@ -122,15 +128,15 @@
     <section class="ss-section" id="ss-goal">
       <div class="container">
         <div class="row text-center">
-          <h2>O U R<br>G O A L</h2>
-          <div class="col-xs-11 col-center col-sm-5 col-sm-offset-1">
+          <h2>Our Goal</h2>
+          <div class="col-xs-10 col-xs-offset-1 col-sm-5 col-sm-offset-1 scroll-reveal">
             <h3>Mission</h3>
-            <p class="text-justify">The mission of the organization is to contribute to the Philippine Society through the promotion of Science and Technology, to encourage academic excellence among its members and to instill our ideals of equality, service, leadership and discipline.</p>
+            <p class="text-left">The mission of the organization is to contribute to the Philippine Society through the <strong>promotion of Science and Technology</strong>, to encourage <strong>academic excellence</strong> among its members and to instill our <strong>ideals of equality</strong>, <strong>service</strong>, <strong>leadership</strong> and <strong>discipline</strong>.</p>
           </div>
-          <div class="col-xs-11 col-center col-sm-5">
-            <br>
+
+          <div class="col-xs-10 col-xs-offset-1 col-sm-5 col-sm-pull-1 scroll-reveal">
             <h3>Vision</h3>
-            <p class="text-justify">The organization seeks to promote intellectual, social, cultural, physical and moral development among its members.</p>
+            <p class="text-left">The organization seeks to promote <strong>intellectual</strong>, <strong>social</strong>, <strong>cultural</strong>, <strong>physical</strong> and <strong>moral development</strong> among its members.</p>
           </div>
         </div><!-- /.row -->
       </div><!-- /.container --> 
@@ -140,64 +146,133 @@
     <section class="ss-section" id="ss-history">
       <div class="container">
         <div class="row text-center">
-          <h2>O U R<br>H I S T O R Y</h2>
-          <div class="col-xs-11 col-center">
-            <h3>How It Began</h3>
-            <p class="text-justify">In 1985, the National Science and Technology Authority (NSTA) scholars convened after realizing the need for an organization that will embody their ideals of maintaining academic excellence. Several meetings were held to discuss the plan regarding the establishment of a formal organization with its own constitution and set of by-laws. Soon after the ratification of the constitution, the UPLB NSTA Scholars’ Society was recognized as an academic organization on November 25, 1985.</p>
-            <p class="text-justify">The first president of NSTA-SS was Meinrado F. Samala. All scholars of NSTA were recognized as members of the newly formed society. They were active in participating in various quiz contests, which won them several awards. But this dynamism lasted only for a year.</p>
-            <h3>The Revival</h3>
-            <p class="text-justify">In 1987, some of the charter members headed by Lope Doromal decided to revive the organization. This time it was named UPLB DOST Scholars’ Society (UPLB DOST-SS) under the new leadership of Anna Marie V. Magbanua.</p>
-            <p class="text-justify">To date, UPLB DOST SS has 49 resident members who pull their talents together in sponsoring activities that promote better understanding of science and technology in the spirit of service.</p>
+          <div class="col-xs-10 col-xs-offset-1 hidden-sm hidden-md hidden-lg">
+            <h2>Our History</h2>
+            <h3 class="scroll-reveal">How It Began</h3>
+            <p class="text-left scroll-reveal">In 1985, the National Science and Technology Authority (NSTA) scholars convened after realizing the need for an organization that will embody their ideals of maintaining academic excellence. Several meetings were held to discuss the plan regarding the establishment of a formal organization with its own constitution and set of by-laws. Soon after the ratification of the constitution, the UPLB NSTA Scholars’ Society was recognized as an academic organization on November 25, 1985.</p>
+            <p class="text-left scroll-reveal">The first president of NSTA-SS was Meinrado F. Samala. All scholars of NSTA were recognized as members of the newly formed society. They were active in participating in various quiz contests, which won them several awards. But this dynamism lasted only for a year.</p>
+            <h3 class="scroll-reveal">The Revival</h3>
+            <p class="text-left scroll-reveal">In 1987, some of the charter members headed by Lope Doromal decided to revive the organization. This time it was named UPLB DOST Scholars’ Society (UPLB DOST-SS) under the new leadership of Anna Marie V. Magbanua.</p>
+            <p class="text-left scroll-reveal">To date, UPLB DOST SS has 49 resident members who pull their talents together in sponsoring activities that promote better understanding of science and technology in the spirit of service.</p>
+          </div>
+
+          <div class="hidden-xs col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+            <h2>Our History</h2>
+            <ul class="timeline">
+              <li class="scroll-reveal">
+                <div class="timeline-badge">
+                  <a><i class="fa fa-circle"></i></a>
+                </div>
+                <div class="timeline-panel">
+                    <div class="timeline-body">
+                        <p class="text-left">In 1985, the National Science and Technology Authority (NSTA) scholars convened after realizing the need for an organization that will embody their ideals of maintaining academic excellence. Several meetings were held to discuss the plan regarding the establishment of a formal organization with its own constitution and set of by-laws. Soon after the ratification of the constitution, the UPLB NSTA Scholars’ Society was recognized as an academic organization on November 25, 1985.</p>
+                    </div>
+                </div>
+              </li>
+              <li class="timeline-inverted scroll-reveal">
+                <div class="timeline-badge">
+                  <a><i class="fa fa-circle"></i></a>
+                </div>
+                <div class="timeline-panel">
+                    <div class="timeline-body">
+                        <p class="text-left">The first president of NSTA-SS was Meinrado F. Samala. All scholars of NSTA were recognized as members of the newly formed society. They were active in participating in various quiz contests, which won them several awards. But this dynamism lasted only for a year.</p>
+                    </div>
+                </div>
+              </li>
+              <li class="scroll-reveal">
+                <div class="timeline-badge">
+                  <a><i class="fa fa-circle"></i></a>
+                </div>
+                <div class="timeline-panel">
+                    <div class="timeline-body">
+                        <p class="text-left">In 1987, some of the charter members headed by Lope Doromal decided to revive the organization. This time it was named UPLB DOST Scholars’ Society (UPLB DOST-SS) under the new leadership of Anna Marie V. Magbanua.</p>
+                    </div>
+                </div>
+              </li>
+              <li class="clearfix no-float"></li>
+            </ul>
+            <p class="lead scroll-reveal">To date, UPLB DOST SS has 49 resident members who pull their talents together in sponsoring activities that promote better understanding of science and technology in the spirit of service.</p>
           </div>
         </div>
       </div> 
     </section>
 
+    <div id="ss-members-parallax"></div>
+
     <!-- Members -->
     <section class="ss-section" id="ss-members">
       <div class="container text-center">
-        <h2>T H E<br>M E M B E R S</h2>
+        <h2>The Members</h2>
         <div class="carousel slide" id="ss-carousel" data-interval="false" data-ride="carousel">
           <div class="carousel-inner">
+            
             <div class="item active">
               <h3>Executive Committee</h3>
               <div class="row">
-                <p class="col-xs-11 col-center">Insert committee description here.</p>
+                <p class="col-xs-10 col-xs-offset-1">The Executive Committee acts as the highest governing body of the organization, ensuring constitutionality of all organization-related matters.</p>
                 <div class="row">
-                  <div class="col-xs-5 col-xs-offset-1">
-                    <img class="img-circle img-responsive" src="http://via.placeholder.com/150x150" alt="Jerome L. Asilo">
-                    <br>Jerome L. Asilo<br>President<br>BS Electrical Engineering
+                  <div class="col-xs-5 col-xs-offset-1 col-sm-4 col-sm-offset-2 col-md-2">
+                    <img class="img-circle img-responsive" src="resources/img/committee/executive/asilo.jpeg" alt="Jerome L. Asilo">
+                    <div class="ss-member-profile">
+                      <div class="ss-member-name">Jerome L. Asilo</div>
+                      <div class="ss-member-position">President</div>
+                      <div class="ss-member-course">BS Electrical Engineering</div>
+                    </div>
                   </div>
-                  <div class="col-xs-5">
-                    <img class="img-circle img-responsive" src="http://via.placeholder.com/150x150">
-                    <br>Joshua Morato<br>Vice President &amp;<br>Internal Academic Committee Head<br>BS Agricultural &amp; Biosystems Engineering
+                  <div class="col-xs-5 col-sm-4 col-md-2">
+                    <img class="img-circle img-responsive" src="resources/img/committee/executive/morato.jpeg" alt="Joshua Morato">
+                    <div class="ss-member-profile">
+                      <div class="ss-member-name">Joshua Morato</div>
+                      <div class="ss-member-position">Vice President &amp; Internal Academic Committee Head</div>
+                      <div class="ss-member-course">BS Agricultural &amp; Biosystems Engineering</div>
+                    </div>
                   </div>
-                  <div class="col-xs-5 col-xs-offset-1">
-                    <img class="img-circle img-responsive" src="http://via.placeholder.com/150x150">
-                    <br>Leira V. Peñafiel<br>Secretary<br>BS Forestry
+                  <div class="col-xs-5 col-xs-offset-1 col-sm-4 col-sm-offset-2 col-md-2 col-md-pull-2">
+                    <img class="img-circle img-responsive" src="resources/img/committee/executive/penafiel.jpeg" alt="Leira V. Peñafiel">
+                    <div class="ss-member-profile">
+                      <div class="ss-member-name">Leira V. Peñafiel</div>
+                      <div class="ss-member-position">Secretary</div>
+                      <div class="ss-member-course">BS Forestry</div>
+                    </div>
                   </div>
-                  <div class="col-xs-5">
-                    <img class="img-circle img-responsive" src="http://via.placeholder.com/150x150">
-                    <br>Bianca Maria Laureanna P. Pedrezuela<br>External Academic Committee Head<br>BS Forestry
+                  <div class="col-xs-5 col-sm-4 col-md-2 col-md-pull-2">
+                    <img class="img-circle img-responsive" src="resources/img/committee/executive/pedrezuela.jpeg" alt="Bianca Maria Laureanna P. Pedrezuela">
+                    <div class="ss-member-profile">
+                      <div class="ss-member-name">Bianca Maria Laureanna P. Pedrezuela</div>
+                      <div class="ss-member-position">External Academic Committee Head</div>
+                      <div class="ss-member-course">BS Forestry</div>
+                    </div>
                   </div>
                 </div>
 
                 <div class="row">
-                  <div class="col-xs-5 col-xs-offset-1">
-                    <img class="img-circle img-responsive" src="http://via.placeholder.com/150x150">
-                    <br>Kidd Lionel G. Pura<br>Finance Committee Head<br>BS Agriculture
+                  <div class="col-xs-5 col-xs-offset-1 col-sm-4 col-sm-offset-2 col-md-2">
+                    <img class="img-circle img-responsive" src="resources/img/committee/executive/pura.jpeg" alt="Kidd Lionel G. Pura">
+                    <div class="ss-member-profile">
+                      <div class="ss-member-name">Kidd Lionel G. Pura</div>
+                      <div class="ss-member-position">Finance Committee Head</div>
+                      <div class="ss-member-course">BS Agriculture</div>
+                    </div>
                   </div>
-                  <div class="col-xs-5">
-                    <img class="img-circle img-responsive" src="http://via.placeholder.com/150x150">
-                    <br>Julius Aaron P. Mejia<br>Socio-Cultural Committee Head<br>MS Microbiology
+                  <div class="col-xs-5 col-sm-4 col-md-2">
+                    <img class="img-circle img-responsive" src="resources/img/committee/executive/mejia.jpeg" alt="Julius Aaron P. Mejia">
+                    <div class="ss-member-profile">
+                      <div class="ss-member-name">Julius Aaron P. Mejia</div>
+                      <div class="ss-member-position">Socio-Cultural Committee Head</div>
+                      <div class="ss-member-course">MS Microbiology</div>
+                    </div>
                   </div>
-                  <div class="col-xs-5 col-xs-offset-1">
-                    <img class="img-circle img-responsive" src="http://via.placeholder.com/150x150">
-                    <br>Darienne Shane Y. Muico<br>Membership &amp; Discipline Committee Head<br>BS Nutrition
+                  <div class="col-xs-5 col-xs-offset-1 col-sm-4 col-sm-offset-2 col-md-2 col-md-pull-2">
+                    <img class="img-circle img-responsive" src="resources/img/committee/executive/muico.jpeg" alt="Darienne Shane Y. Muico">
+                    <div class="ss-member-profile">
+                      <div class="ss-member-name">Darienne Shane Y. Muico</div>
+                      <div class="ss-member-position">Membership &amp; Discipline Committee Head</div>
+                      <div class="ss-member-course">BS Nutrition</div>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div><!-- /.item -->
+            </div><!-- /.item --> 
           </div><!-- /.carousel-inner -->
 
           <a class="left carousel-control" href="#ss-carousel" data-slide="prev">
@@ -212,55 +287,57 @@
       </div>      
     </section>
 
-    <!-- Sikat -->
-    <section class="ss-section" id="ss-sikat">
-      <div class="container">
-        <div class="row text-center">
-          <h2>S I K A T</h2>
-          <p class="col-xs-11 col-center">Insert short introduction here about the online newspaper.</p>
-          <br>
-          <a href="#" class="btn btn-default" role="button">READ MORE</a>
-        </div>
-      </div>
-    </section>
-
     <!-- Events -->
     <section class="ss-section" id="ss-events">
       <div class="container">
         <div class="row text-center">
-        <h2>E V E N T S</h2>
-        <p class="col-xs-11 col-center">Insert short introduction here about the kinds of events that the org hosts.</p>
-        <div class="col-xs-11 col-center">
+        <h2>Events</h2>
+        <p class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 text-left scroll-reveal" id="ss-event-intro">In line with its mandate to serve, lead, and excel, the UPLB DOST Scholars' Society conducts events which aim to provide <strong>selfless service</strong> to the Filipino people, hone skills of its members and the youth to lead, and promote an excellent Philippines for its betterment and for the generations to come.</p>
+
+        <div class="ss-event-profile col-xs-10 col-xs-offset-1 col-sm-5 col-sm-offset-1 scroll-reveal">
           <img class="img-responsive" src="http://via.placeholder.com/1024x768" alt="Insert event name here">
-          <h3>Event name</h3>
-          <p class="text-justify">Insert event description here.</p>
+          <h3 class="ss-event-name">Scholars’ Week</h3>
+          <p class="ss-event-description text-left">This week-long celebration aims to celebrate the spirit of scholarship as the organization will hold several activities to provide service to fellow DOST scholars and welcome fellow UPLB as the semester starts.</p>
         </div>
-        <div class="col-xs-11 col-center">
+
+        <div class="ss-event-profile col-xs-10 col-xs-offset-1 col-sm-5 col-sm-pull-1 scroll-reveal">
           <img class="img-responsive" src="http://via.placeholder.com/1024x768" alt="Insert event name here">
-          <h3>Event name</h3>
-          <p class="text-justify">Insert event description here.</p>
+          <h3 class="ss-event-name">Blunders, Breakthroughs, Bahala Na Quiz Contest</h3>
+          <p class="ss-event-description text-left">As an avenue to celebrate the wonders of science and technology in the University, the organization conducts an annual quiz contest in relation to the S&amp;T, also as an opportunity of its promotion.</p>
         </div>
-        <br>
-        <a href="#" class="btn btn-default" role="button">MORE EVENTS</a>
+
+        <a href="#" class="btn btn-default btn-md scroll-reveal" role="button">MORE EVENTS</a>
         </div>
       </div>
     </section>
 
+    <!-- Sikat -->
+    <section class="ss-section" id="ss-sikat">
+      <div class="container text-center">
+        <div class="row text-center">
+          <h2>SIKAT</h2>
+          <p class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 text-left scroll-reveal">SIKAT is the official newsletter of the UPLB Department of Science and Technology Scholars’ Society. It features the highlights of the organization’s unending desire and passion to serve, lead, and excel.</p>
+          <br>
+        </div>
+        <a href="#" class="btn btn-default btn-md scroll-reveal" role="button">READ MORE</a>
+      </div>
+    </section>
+
     <!-- Google Map -->
-    <section class="ss-section hidden-xs" id="ss-map"></section>
+    <section class="hidden-xs" id="ss-map"></section>
 
     <!-- Contact -->
     <section class="ss-section" id="ss-contact">
       <div class="container text-center">
         <div class="row text-center">
-          <div class="col-xs-11 col-center">
-            <h3 class="scroll-reveal">Follow Us</h3>
+          <div class="col-xs-10 col-xs-offset-1 col-sm-5 col-sm-offset-1">
+            <h3>Follow Us</h3>
             <div class="fb-page" data-href="https://www.facebook.com/uplbdostscholarssociety/" data-height="260" data-height="390" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/uplbdostscholarssociety/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/uplbdostscholarssociety/"></a></blockquote></div>
             <br>
             <a class="twitter-timeline" data-lang="en" data-width="390" data-height="260" href="https://twitter.com/uplbdostss1985">Tweets by uplbdostss1985</a> <script async src="http://platform.twitter.com/widgets.js" charset="utf-8"></script>
           </div>
-          <div class="col-xs-11 col-center">
-            <h3 class="scroll-reveal">Contact Us</h3>
+          <div class="col-xs-10 col-xs-offset-1 col-sm-5 col-sm-pull-1">
+            <h3>Contact Us</h3>
              <div class="row">
               <div class="col-md-1 col-md-offset-1">
                 <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
@@ -278,31 +355,39 @@
                 <span class="glyphicon glyphicon-phone" aria-hidden="true"></span>
               </div>
               <div class="col-md-9">
-                <p>Secretary: Leira V. Peñafiel<br>(+63) 926 229 5954</p>
+                <p>(+63) 926 229 5954<br>Leira V. Peñafiel, Secretary</p>
               </div>
              </div>
-          </div>
-          <div class="hidden-xs">
-            <h3 class="scroll-reveal">Ask Away</h3>
           </div>
         </div>
       </div>      
     </section>
 
+    <i class="fa fa-chevron-up" id="back-to-top"></i>
+
     <!-- Footer -->
-   <footer class="ss-section" id="ss-footer">
+    <footer class="ss-section" id="ss-footer">
       <div class="container text-center">
         &copy; 2017 UPLB DOST Scholars’ Society. All Rights Reserved.
       </div>
     </footer>
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <!-- jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-
     <!-- Bootstrap JS -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
+    <!-- Google Map -->
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD9uA0ziMYVfgweidaAcYs9sLXZg3I0RnQ&callback=ssMap">
+    </script>
     <!-- Custom JS -->
     <script src="js/custom.js"></script>
+    <!-- Affix -->
+    <script>
+      $('#ssNavbar').affix({
+        offset: {
+          top: 100
+        }
+      })
+    </script>
   </body>
 </html>
