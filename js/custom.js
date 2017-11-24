@@ -45,11 +45,11 @@ function ssMap() {
     var map = new google.maps.Map(mapElement, mapOptions);
 
     // Marker
-    var iconBase = 'http://static.tumblr.com/jyrtrr5/iGqoso1fl/google-map-marker.png';
+    //var iconBase = 'http://static.tumblr.com/jyrtrr5/iGqoso1fl/google-map-marker.png';
     var marker = new google.maps.Marker({
         position: new google.maps.LatLng(14.168191, 121.245037),
         map: map,
-        icon: iconBase,
+        //icon: iconBase,
         title: 'UPLB DOST SS Organization House'
     });
 }

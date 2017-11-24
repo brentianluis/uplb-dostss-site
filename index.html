@@ -3,8 +3,8 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <title>UPLB DOST Scholars&#39; Society</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>UPLB DOST Scholars' Society</title>
 
     <!-- Meta Tags -->
     <meta name="description" content="We are the UPLB DOST SS, we exist to promote academic excellence not just among our members but also among the students of the university.">
@@ -37,9 +37,9 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="http://static.tumblr.com/jyrtrr5/8PYosnx9x/custom.min.css">
+    <link rel="stylesheet" href="css/custom.css">
     <!-- Google Fonts -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500|Zilla+Slab:600">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,700|Zilla+Slab:600">
     <!-- Font Awesome -->
     <script src="https://use.fontawesome.com/5113c052d8.js"></script>
     <!-- ScrollReveal -->
@@ -47,528 +47,6 @@
     <script>
       window.sr = ScrollReveal();
     </script>
-
-    <style>
-      html,
-      body {
-        height: 100%;
-      }
-
-      body {
-        font-family: 'Montserrat', sans-serif;
-        font-weight: 300;
-      }
-
-      h2 {
-        font-family: 'Zilla Slab', serif;
-        font-size: 28px;
-        font-weight: 600;
-      }
-
-      h3 { font-weight: 300; }
-      p { line-height: 2; }
-
-      .ss-section {
-        display: table;
-        width: 100%;
-        height: 100%;
-        padding-top: 50px;
-        padding-bottom: 50px;
-      }
-
-      .ss-section .container {
-        display: table-cell;
-        vertical-align: middle;
-      }
-
-      /* Navbar */
-
-      .navbar .navbar-nav {
-        display: inline-block;
-        float: none;
-        vertical-align: top;
-      }
-
-      .navbar .navbar-collapse,
-      .navbar-default .navbar-nav .dropdown-menu > li > a {
-        text-align: center;
-      }
-
-      .navbar-default .navbar-brand,
-      .navbar-default .navbar-nav > li > a {
-        font-weight: 500;
-      }
-
-      .navbar-default .navbar-brand,
-      .navbar-default .navbar-nav > li > a,
-      .navbar-default .navbar-nav .open .dropdown-menu> li > a {
-        color: #0b3c5d;
-      }
-
-      .navbar-default .navbar-nav .dropdown-menu > li > a { font-weight: 300; }
-      .navbar-default { background-color: #ffffff; }
-
-      .navbar-default .navbar-nav > .active > a,
-      .navbar-default .navbar-nav>.open>a:hover,
-      .navbar-default .navbar-nav .open .dropdown-menu>.active>a,
-      .navbar-default .navbar-nav>.active>a,
-      .navbar-default .navbar-nav>.active>a:hover {
-        color: #0b3c5d;
-        background-color: transparent;
-        border: 2px solid #ededed;
-        border-radius: 5px;
-      }
-
-      .navbar-default .navbar-toggle .icon-bar { background-color: #0b3c5d; }
-
-      .navbar-default .navbar-toggle:focus,
-      .navbar-default .navbar-toggle:hover {
-        background-color: transparent;
-      }
-
-      .navbar-toggle { border: none; }
-
-      .navbar-toggle .icon-bar {
-        width: 22px;
-        transition: all 0.2s;
-      }
-
-      .navbar-toggle .top-bar {
-        transform: rotate(45deg);
-        transform-origin: 10% 10%;
-      }
-
-      .navbar-toggle .middle-bar { opacity: 0; }
-
-      .navbar-toggle .bottom-bar {
-        transform: rotate(-45deg);
-        transform-origin: 10% 90%;
-      }
-
-      .navbar-toggle.collapsed .top-bar { transform: rotate(0); }
-      .navbar-toggle.collapsed .middle-bar { opacity: 1; }
-      .navbar-toggle.collapsed .bottom-bar { transform: rotate(0); }
-
-      .navbar-collapse.in {
-        overflow: hidden;
-        max-height: none;
-        height: auto;
-      }
-
-      /* Header */
-
-      #ss-header {
-        background-color: transparent;
-        background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(http://static.tumblr.com/jyrtrr5/tvvosnx7y/header-bg1.jpg);
-        background-position: center center;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-size: cover;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-      }
-
-      #ss-motto,
-      #ss-name {
-        color: #ffffff;
-      }
-
-      #ss-motto {
-        font-size: 40px;
-      }
-
-      #ss-name {
-        font-size: 15px;
-        font-weight: 200;
-      }
-
-      /* The Organization */
-
-      #ss-organization .container img { height: 150px; }
-
-      /* Our Goal */
-
-      #ss-goal { background-color: #0b3c5d; }
-      #ss-goal .container { color: #ffffff; }
-      #ss-goal .container h3 { color: #ffcd00; }
-
-      /* Members */
-
-      #ss-members .carousel-control { background: none; }
-
-      #ss-members .carousel-inner img {
-        display: inline-block;
-        float: none;
-        width: auto;
-        height: auto;
-      }
-
-      #ss-members .ss-member-profile {
-        padding-top: 10px;
-        padding-bottom: 10px;
-      }
-
-      #ss-members .ss-member-name {
-        font-size: 16px;
-        font-weight: 400;
-      }
-
-      #ss-members .ss-member-position {
-        text-transform: uppercase;
-      }
-
-      #ss-members .ss-member-batch {
-        text-transform: uppercase;
-      }
-
-      /* Events */
-
-      #ss-event-intro,
-      .ss-event-profile,
-      .ss-event-name {
-        padding-top: 10px;
-        padding-bottom: 10px;
-      }
-
-      #ss-events .btn-default {
-        color: #333;
-        background-color: transparent;
-        border: 2px solid;
-        font-weight: 300;
-        margin-top: 10px;
-      }
-
-      /* Sikat */
-
-      #ss-sikat {
-        height: 100%;
-        background-color: transparent;
-        background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.2)), url(http://static.tumblr.com/jyrtrr5/DBToso1gp/sikat-bg.jpg);
-        background-position: center center;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-size: cover;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-      }
-
-      #ss-sikat p { color: #fff; }
-      #ss-sikat h2 { color: #0b3c5d; }
-
-      #ss-sikat .btn-default {
-        color: #fff;
-        background-color: #0b3c5d;
-        border: none;
-        font-weight: 300;
-        margin-top: 10px;
-      }
-
-      /* Contact */
-
-      #ss-contact { background-color: #1d2731; }
-      #ss-contact .container { color: #fff; }
-
-      #back-to-top {
-        position: fixed;
-        bottom: 10px;
-        right: 10px;
-        color: #fff;
-        background-color: rgba(0,0,0,0.7);
-        padding: 15px;
-        border-radius: 7px;
-        -webkit-border-radius: 7px;
-        -moz-border-radius: 7px;
-        transition: all 0.3s ease;
-        -webkit-transition: all 0.3s linear;
-        -moz-transition: all 0.3s ease;
-        -ms-transition: all 0.3s ease;
-        -o-transition: all 0.3s ease;
-      }
-
-      /* Footer */
-      #ss-footer {
-        height: 10%;
-        padding-top: 0;
-        padding-bottom: 0;
-        background-color: #000;
-      }
-
-      #ss-footer .container {
-        color: #fff;
-        font-size: 13px;
-      }
-
-      @media only screen and (min-width : 768px){
-        body { font-size: 15px; }
-
-        /* Navbar */
-
-        .navbar-default .container {
-          width: 80%;
-        }
-
-        .navbar-default {
-          padding-top: 50px;
-          padding-bottom: 20px;
-          background-color: transparent;
-          border: none;
-          -webkit-transition: all .35s;
-          -moz-transition: all .35s;
-          transition: all .35s;
-        }
-
-        .navbar-default .navbar-brand,
-        .navbar-default .navbar-nav > li > a,
-        .navbar-default .navbar-nav > li > a:focus,
-        .navbar-default .navbar-nav > li> a:hover,
-        .navbar-default .navbar-nav .open .dropdown-menu> li > a {
-          color: #fff;
-        }
-
-        .navbar-default .navbar-nav > li > a {
-          font-size: 14px;
-          font-weight: 300;
-        }
-
-        .navbar-default .navbar-nav>.open>a,
-        .navbar-default .navbar-nav > .open > a:hover {
-          color: #fff;
-          background-color: rgba(0,0,0,0.2);
-          border: none;
-          border-radius: 0
-        }
-
-        .navbar-default .navbar-nav .open .dropdown-menu {
-            background-color: rgba(0,0,0,0.2) !important;
-        }
-
-        .dropdown-menu {
-          border: 0;
-          border-radius: 0;
-        }
-
-        .dropdown-menu>li>a {
-          padding-top: 6px;
-          padding-bottom: 6px;
-        }
-
-        .navbar-default.affix {
-          background-color: #1c2127;
-          padding-top: 0;
-          padding-bottom: 0;
-        }
-
-        .navbar-default.affix .navbar-nav > .active > a {
-          border: none;
-        }
-
-        .navbar-default.affix .navbar-nav > .open > a:hover {
-          color: #333;
-          background-color: #fff;
-        }
-
-        .navbar-default.affix .navbar-nav .open .dropdown-menu {
-          background-color: #fff !important;
-        }
-
-        .navbar-default.affix .navbar-nav .open .dropdown-menu> li > a {
-          color: #333;
-        }
-
-        .navbar-default.affix .navbar-nav .open .dropdown-menu>.active>a {
-          color: #0b3c5d;
-          border: 0;
-        }
-
-        /* Header */
-
-        #ss-motto { font-size: 50px; }
-        #ss-name { font-size: 25px; }
-
-        /* The Organization */
-
-        #ss-organization { height: 50%; }
-
-        /* Our Goal */
-
-        #ss-goal { height: 50%; }
-
-        /* History */
-
-        #ss-history { background-color: #f3f3f3; }
-
-        .timeline {
-          padding: 10px 0;
-          position: relative;
-          list-style: none;
-          font-weight: 300;
-        }
-
-        .timeline:before {
-          top: 0;
-          bottom: 0;
-          position: absolute;
-          content: " ";
-          width: 2px;
-          background: #fff;
-          left: 50%;
-          margin-left: -1.5px;
-        }
-
-        .timeline > li {
-          margin-bottom: 20px;
-          position: relative;
-          width: 50%;
-          float: left;
-          clear: left;
-        }
-
-        .timeline > li:before,
-        .timeline > li:after {
-          content: " ";
-          display: table;
-        }
-
-        .timeline > li:after { clear: both; }
-
-        .timeline > li > .timeline-panel {
-          width: calc(100% - 25px);
-          width: -moz-calc(100% - 25px);
-          width: -webkit-calc(100% - 25px);
-          float: left;
-          background: #fff;
-          position: relative;
-        }
-
-        .timeline > li > .timeline-panel:before {
-          position: absolute;
-          top: 26px;
-          right: -15px;
-          display: inline-block;
-          border-top: 15px solid transparent;
-          border-bottom: 15px solid transparent;
-          content: " ";
-        }
-
-        .timeline > li > .timeline-panel:after {
-          position: absolute;
-          top: 27px;
-          right: -14px;
-          display: inline-block;
-          border-top: 14px solid transparent;
-          border-left: 14px solid #fff;
-          border-right: 0 solid #fff;
-          border-bottom: 14px solid transparent;
-          content: " ";
-        }
-
-        .timeline > li > .timeline-badge {
-          color: #fff;
-          width: 24px;
-          height: 24px;
-          line-height: 50px;
-          text-align: center;
-          position: absolute;
-          top: 16px;
-          right: -12px;
-          z-index: 100;
-        }
-
-        .timeline > li.timeline-inverted > .timeline-panel { float: right; }
-
-        .timeline > li.timeline-inverted > .timeline-panel:before {
-          border-left-width: 0;
-          border-right-width: 15px;
-          left: -15px;
-          right: auto;
-        }
-
-        .timeline > li.timeline-inverted > .timeline-panel:after {
-          border-left-width: 0;
-          border-right-width: 14px;
-          left: -14px;
-          right: auto;
-        }
-
-        .timeline-badge > a { color: #fff; }
-        .timeline-badge a:hover { color: #dcdcdc; }
-
-        .timeline-body > p, .timeline-body > ul {
-          padding: 10px 15px;
-          margin-bottom: 0;
-        }
-
-        .timeline > li.timeline-inverted {
-          float: right;
-          clear: right;
-        }
-
-        .timeline > li:nth-child(2) { margin-top: 60px; }
-        .timeline > li.timeline-inverted > .timeline-badge { left: -12px; }
-        .no-float { float: none !important; }
-
-        /* Members Parallax */
-
-        #ss-members-parallax {
-          width: 100%;
-          height: 50%;
-          background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(http://static.tumblr.com/jyrtrr5/ZBsoso1gc/parallax-bg.jpg);
-          background-position: center center;
-          background-repeat: no-repeat;
-          background-attachment: fixed;
-          background-size: cover;
-          -webkit-background-size: cover;
-          -moz-background-size: cover;
-          -o-background-size: cover;
-        }
-
-        /* Sikat */
-        #ss-sikat { height: 50%; }
-
-        /* Map */
-
-        #ss-map {
-          width: 100%;
-          height: 50%
-        }
-      }
-
-      @media only screen and (min-width : 992px){
-        .ss-section {
-          padding-top: 80px;
-          padding-bottom: 80px;
-        }
-
-        #ss-motto { font-size: 80px; }
-
-        .dropdown-menu > li > a:hover {
-          background-color: transparent;
-        }
-
-        .navbar-default.affix .navbar-nav > .active > a {
-          border-bottom: 3px solid #0b3c5d;
-          border-radius: 0;
-          border-top: 0;
-          border-left: 0;
-          border-right: 0;
-        }
-
-        .navbar-default .navbar-nav > .open > a,
-        .navbar-default .navbar-nav > .open > a:focus, {
-          color: #fff !important;
-          background-color: rgba(0,0,0,0.2) !important;
-          border: 0;
-        }
-
-        .navbar-default.affix .navbar-nav > .open > a:focus {
-          color: #333;
-          background-color: #fff;
-          border: 0;
-        }
-      }
-    </style>
   </head>
 
   <body data-spy="scroll" data-target=".navbar" data-offset="50">
@@ -592,23 +70,24 @@
             <span class="icon-bar middle-bar"></span>
             <span class="icon-bar bottom-bar"></span>
           </button>
-          <a class="navbar-brand">UPLB DOST SS</a>
+          <a class="navbar-brand" href="http://uplbdostss1985.com">UPLB DOST SS</a>
         </div>
 
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="http://uplbdostss1985.com">HOME</a></li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">ABOUT <span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="#ss-organization">The Organization</a></li>
-                <li><a href="#ss-goal">Our Goal</a></li>
-                <li><a href="#ss-history">Our History</a></li>
-                <li><a href="#ss-members">The Members</a></li>
-              </ul>
-            <li><a href="#ss-events">EVENTS</a></li>
-            <li><a href="#ss-sikat">SIKAT</a></li>
-            <li><a href="#ss-contact">CONTACT</a></li>
+            <li><a href="#ss-organization">About</a></li>
+            <li><a href="#ss-goal">Goal</a></li>
+            <li><a href="#ss-history">History</a></li>
+            <li><a href="#ss-members">Members</a></li>
+            <li><a href="#ss-events">Events</a></li>
+            <li><a href="#ss-sikat">Sikat</a></li>
+            <li id="ss-nav-contact"><a href="#ss-contact">Contact</a></li>
+            <li>
+              <form class="navbar-form navbar-left">
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Search">
+                </div>
+              </form>
             </li>
           </ul>
         </div>
@@ -618,7 +97,7 @@
     <!-- Header -->
     <header class="ss-section" id="ss-header">
       <div class="container text-center">
-        <h1 class="scroll-reveal" id="ss-motto">SERVE. LEAD. EXCEL.</h1>
+        <h1 class="scroll-reveal" id="ss-motto">Serve. Lead. Excel.</h1>
         <h5 class="scroll-reveal" id="ss-name">
           University of the Philippines Los Ban&#771;os<br>
           Department of Science and Technology<br>
@@ -648,11 +127,13 @@
         <div class="row text-center">
           <h2>Our Goal</h2>
           <div class="col-xs-10 col-xs-offset-1 col-sm-5 col-sm-offset-1 col-md-4 col-md-offset-2 scroll-reveal">
+            <img class="img-responsive" src="resources/img/rocket.png" alt="Mission">
             <h3>Mission</h3>
             <p class="text-left">The mission of the organization is to contribute to the Philippine Society through the <strong>promotion of Science and Technology</strong>, to encourage <strong>academic excellence</strong> among its members and to instill our <strong>ideals of equality</strong>, <strong>service</strong>, <strong>leadership</strong> and <strong>discipline</strong>.</p>
           </div>
 
           <div class="col-xs-10 col-xs-offset-1 col-sm-5 col-sm-pull-1 col-md-4 scroll-reveal">
+            <img class="img-responsive" src="resources/img/telescope.png" alt="Vision">
             <h3>Vision</h3>
             <p class="text-left">The organization seeks to promote <strong>intellectual</strong>, <strong>social</strong>, <strong>cultural</strong>, <strong>physical</strong> and <strong>moral development</strong> among its members.</p>
           </div>
@@ -668,9 +149,10 @@
             <h2>Our History</h2>
             <h3 class="scroll-reveal">How It Began</h3>
             <p class="text-left scroll-reveal">In 1985, the National Science and Technology Authority (NSTA) scholars convened after realizing the need for an organization that will embody their ideals of maintaining academic excellence. Several meetings were held to discuss the plan regarding the establishment of a formal organization with its own constitution and set of by-laws. Soon after the ratification of the constitution, the UPLB NSTA Scholars’ Society was recognized as an academic organization on November 25, 1985.</p>
-            <p class="text-left scroll-reveal">The first president of NSTA-SS was Meinrado F. Samala. All scholars of NSTA were recognized as members of the newly formed society. They were active in participating in various quiz contests, which won them several awards. But this dynamism lasted only for a year.</p>
+            <p class="text-left scroll-reveal">The first president of NSTA SS was Meinrado F. Samala. All scholars of NSTA were recognized as members of the newly formed society. They were active in participating in various quiz contests, which won them several awards. But this dynamism lasted only for a year.</p>
             <h3 class="scroll-reveal">The Revival</h3>
-            <p class="text-left scroll-reveal">In 1987, some of the charter members headed by Lope Doromal decided to revive the organization. This time it was named UPLB DOST Scholars’ Society (UPLB DOST-SS) under the new leadership of Anna Marie V. Magbanua.</p>
+            <p class="text-left scroll-reveal">In 1987, some of the charter members headed by Lope Doromal decided to revive the organization. This time it was named UPLB DOST Scholars’ Society (UPLB DOST SS) under the new leadership of Anna Marie V. Magbanua.</p>
+            <p class="text-left scroll-reveal">In 2013, the Philippine Alliance of DOST Scholars (PhilADS) was established having UPLB DOST SS representing the University of the Philippines Los Ban&#771;os. Other founding organizations are from the University of the Philippines Diliman, Philippine Normal University, Polytechnic University of the Philippines, Rizal Technological University, and Technological University of the Philippines.</p>
             <p class="text-left scroll-reveal">To date, UPLB DOST SS has 49 resident members who pull their talents together in sponsoring activities that promote better understanding of science and technology in the spirit of service.</p>
           </div>
 
@@ -694,7 +176,7 @@
                 </div>
                 <div class="timeline-panel">
                     <div class="timeline-body">
-                        <p class="text-left">The first president of NSTA-SS was Meinrado F. Samala. All scholars of NSTA were recognized as members of the newly formed society. They were active in participating in various quiz contests, which won them several awards. But this dynamism lasted only for a year.</p>
+                        <p class="text-left">The first president of NSTA SS was Meinrado F. Samala. All scholars of NSTA were recognized as members of the newly formed society. They were active in participating in various quiz contests, which won them several awards. But this dynamism lasted only for a year.</p>
                     </div>
                 </div>
               </li>
@@ -705,14 +187,25 @@
                 </div>
                 <div class="timeline-panel">
                     <div class="timeline-body">
-                        <p class="text-left">In 1987, some of the charter members headed by Lope Doromal decided to revive the organization. This time it was named UPLB DOST Scholars’ Society (UPLB DOST-SS) under the new leadership of Anna Marie V. Magbanua.</p>
+                        <p class="text-left">In 1987, some of the charter members headed by Lope Doromal decided to revive the organization. This time it was named UPLB DOST Scholars’ Society (UPLB DOST SS) under the new leadership of Anna Marie V. Magbanua.</p>
                     </div>
                 </div>
               </li>
 
+              <li class="timeline-inverted scroll-reveal">
+                <div class="timeline-badge">
+                  <a><i class="fa fa-circle"></i></a>
+                </div>
+                <div class="timeline-panel">
+                    <div class="timeline-body">
+                        <p class="text-left">In 2013, the Philippine Alliance of DOST Scholars (PhilADS) was established having UPLB DOST SS representing the University of the Philippines Los Ban&#771;os. Other founding organizations are from the University of the Philippines Diliman, Philippine Normal University, Polytechnic University of the Philippines, Rizal Technological University, and Technological University of the Philippines.</p>
+                    </div>
+                </div>
+              </li>              
+
               <li class="clearfix no-float"></li>
             </ul>
-            <p class="lead scroll-reveal">To date, UPLB DOST SS has 49 resident members who pull their talents together in sponsoring activities that promote better understanding of science and technology in the spirit of service.</p>
+            <p class="lead scroll-reveal">To date, UPLB DOST SS has 48 resident members who pull their talents together in sponsoring activities that promote better understanding of science and technology in the spirit of service.</p>
           </div>
         </div>
       </div>
@@ -727,6 +220,7 @@
         <div class="carousel slide" id="ss-carousel" data-interval="false" data-ride="carousel">
           <div class="carousel-inner">
 
+            <!-- Executive Committee -->
             <div class="item active">
               <h3>Executive Committee</h3>
               <div class="row">
@@ -789,376 +283,555 @@
                   </div>
 
                   <div class="col-xs-5 col-xs-offset-1 col-sm-4 col-sm-offset-2 col-md-2 col-md-pull-2">
-                    <img class="img-circle img-responsive" src="http://static.tumblr.com/jyrtrr5/FE9oso2o7/muico.jpg" alt="Darienne Shane Y. Muico">
+                    <img class="img-circle img-responsive" src="http://static.tumblr.com/jyrtrr5/FE9oso2o7/muico.jpg" alt="Elaine O. Espiritu">
                     <div class="ss-member-profile">
-                      <div class="ss-member-name">Darienne Shane Y. Muico</div>
+                      <div class="ss-member-name">Elaine O. Espiritu</div>
                       <div class="ss-member-position">Membership &amp; Discipline Committee Head</div>
-                      <div class="ss-member-course">BS Nutrition</div>
+                      <div class="ss-member-course">BS Applied Physics</div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
 
+            <!-- Internal Academic Committee -->
             <div class="item">
               <h3>Internal Academic Committee</h3>
               <div class="row">
                 <p class="col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2">The Internal Academic Committee seeks to promote and ensure academic excellence among members of the organization through hands on monitoring of the members’ academic standing.</p>
+
                 <div class="row">
                   <div class="col-xs-5 col-xs-offset-1 col-sm-4 col-sm-offset-2 col-md-2">
-                    <img class="img-circle img-responsive" src="http://static.tumblr.com/jyrtrr5/8ldoso2nx/asilo.jpg" alt="Jerome L. Asilo">
+                    <img class="img-circle img-responsive" src="http://static.tumblr.com/jyrtrr5/Zy0osux71/placeholder.jpg" alt="Joshua Morato">
                     <div class="ss-member-profile">
-                      <div class="ss-member-name">Jerome L. Asilo</div>
-                      <div class="ss-member-position">President</div>
-                      <div class="ss-member-course">BS Electrical Engineering</div>
+                      <div class="ss-member-name">Joshua Morato</div>
+                      <div class="ss-member-course">BS Agricultural &amp; Biosystems Engineering</div>
+                      <div class="ss-member-batch">Batch GENES</div>
                     </div>
                   </div>
 
                   <div class="col-xs-5 col-sm-4 col-md-2">
-                    <img class="img-circle img-responsive" src="http://static.tumblr.com/jyrtrr5/IR9oso2o2/morato.jpg" alt="Joshua Morato">
+                    <img class="img-circle img-responsive" src="http://static.tumblr.com/jyrtrr5/Zy0osux71/placeholder.jpg" alt="Vince Kristian Orzales">
                     <div class="ss-member-profile">
-                      <div class="ss-member-name">Joshua Morato</div>
-                      <div class="ss-member-position">Vice President &amp; Internal Academic Committee Head</div>
-                      <div class="ss-member-course">BS Agricultural &amp; Biosystems Engineering</div>
+                      <div class="ss-member-name">Vince Kristian Orzales</div>
+                      <div class="ss-member-course">BS Chemical Engineering</div>
+                      <div class="ss-member-batch">Batch DOSTaDOSS</div>
                     </div>
                   </div>
 
                   <div class="col-xs-5 col-xs-offset-1 col-sm-4 col-sm-offset-2 col-md-2 col-md-pull-2">
-                    <img class="img-circle img-responsive" src="http://static.tumblr.com/jyrtrr5/93Zoso2od/penafiel.jpg" alt="Leira V. Peñafiel">
+                    <img class="img-circle img-responsive" src="http://static.tumblr.com/jyrtrr5/Zy0osux71/placeholder.jpg" alt="Edlie Joshua Vargas">
                     <div class="ss-member-profile">
-                      <div class="ss-member-name">Leira V. Peñafiel</div>
-                      <div class="ss-member-position">Secretary</div>
-                      <div class="ss-member-course">BS Forestry</div>
+                      <div class="ss-member-name">Edlie Joshua Vargas</div>
+                      <div class="ss-member-course">BS Applied Physics</div>
+                      <div class="ss-member-batch">Batch ENZYMES</div>
                     </div>
                   </div>
 
                   <div class="col-xs-5 col-sm-4 col-md-2 col-md-pull-2">
-                    <img class="img-circle img-responsive" src="http://static.tumblr.com/jyrtrr5/2HWoso2oa/pedrezuela.jpg" alt="Bianca Maria Laureanna P. Pedrezuela">
+                    <img class="img-circle img-responsive" src="http://static.tumblr.com/jyrtrr5/Zy0osux71/placeholder.jpg" alt="Ricaella Reyes">
                     <div class="ss-member-profile">
-                      <div class="ss-member-name">Bianca Maria Laureanna P. Pedrezuela</div>
-                      <div class="ss-member-position">External Academic Committee Head</div>
-                      <div class="ss-member-course">BS Forestry</div>
+                      <div class="ss-member-name">Ricaella Reyes</div>
+                      <div class="ss-member-course">BS Biology</div>
+                      <div class="ss-member-batch">Batch ENZYMES</div>
                     </div>
                   </div>
                 </div>
 
                 <div class="row">
                   <div class="col-xs-5 col-xs-offset-1 col-sm-4 col-sm-offset-2 col-md-2">
-                    <img class="img-circle img-responsive" src="http://static.tumblr.com/jyrtrr5/10eoso2oh/pura.jpg" alt="Kidd Lionel G. Pura">
+                    <img class="img-circle img-responsive" src="http://static.tumblr.com/jyrtrr5/Zy0osux71/placeholder.jpg" alt="Jamaica May Arizapa">
                     <div class="ss-member-profile">
-                      <div class="ss-member-name">Kidd Lionel G. Pura</div>
-                      <div class="ss-member-position">Finance Committee Head</div>
-                      <div class="ss-member-course">BS Agriculture</div>
+                      <div class="ss-member-name">Jamaica May Arizapa</div>
+                      <div class="ss-member-course">BS Statistics</div>
+                      <div class="ss-member-batch">Batch GENES</div>
                     </div>
                   </div>
 
                   <div class="col-xs-5 col-sm-4 col-md-2">
-                    <img class="img-circle img-responsive" src="http://static.tumblr.com/jyrtrr5/TOqoso2nz/mejia.jpg" alt="Julius Aaron P. Mejia">
+                    <img class="img-circle img-responsive" src="http://static.tumblr.com/jyrtrr5/Zy0osux71/placeholder.jpg" alt="Richard Jan Inocencio">
                     <div class="ss-member-profile">
-                      <div class="ss-member-name">Julius Aaron P. Mejia</div>
-                      <div class="ss-member-position">Socio-Cultural Committee Head</div>
-                      <div class="ss-member-course">MS Microbiology</div>
+                      <div class="ss-member-name">Richard Jan Inocencio</div>
+                      <div class="ss-member-course">BS Electrical Engineering</div>
+                      <div class="ss-member-batch">Batch PSYCHE</div>
                     </div>
                   </div>
 
                   <div class="col-xs-5 col-xs-offset-1 col-sm-4 col-sm-offset-2 col-md-2 col-md-pull-2">
-                    <img class="img-circle img-responsive" src="http://static.tumblr.com/jyrtrr5/FE9oso2o7/muico.jpg" alt="Darienne Shane Y. Muico">
+                    <img class="img-circle img-responsive" src="http://static.tumblr.com/jyrtrr5/Zy0osux71/placeholder.jpg" alt="Earl Jones Saldajeno">
                     <div class="ss-member-profile">
-                      <div class="ss-member-name">Darienne Shane Y. Muico</div>
-                      <div class="ss-member-position">Membership &amp; Discipline Committee Head</div>
-                      <div class="ss-member-course">BS Nutrition</div>
+                      <div class="ss-member-name">Earl Jones Saldajeno</div>
+                      <div class="ss-member-course">BS Biology</div>
+                      <div class="ss-member-batch">Batch STEPS</div>
+                    </div>
+                  </div>
+
+                  <div class="col-xs-5 col-sm-4 col-md-2 col-md-pull-2">
+                    <img class="img-circle img-responsive" src="http://static.tumblr.com/jyrtrr5/Zy0osux71/placeholder.jpg" alt="Glaze Mari Bagon">
+                    <div class="ss-member-profile">
+                      <div class="ss-member-name">Glaze Mari Bagon</div>
+                      <div class="ss-member-course">BS Statistics</div>
+                      <div class="ss-member-batch">Batch FISSURE</div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-xs-5 col-xs-offset-1 col-sm-4 col-sm-offset-2 col-md-2">
+                    <img class="img-circle img-responsive" src="http://static.tumblr.com/jyrtrr5/Zy0osux71/placeholder.jpg" alt="Jorellie Petalver">
+                    <div class="ss-member-profile">
+                      <div class="ss-member-name">Jorellie Petalver</div>
+                      <div class="ss-member-course">BS Chemical Engineering</div>
+                      <div class="ss-member-batch">Batch STRATA</div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
 
+            <!-- External Academic Committee -->
             <div class="item">
               <h3>External Academic Committee</h3>
               <div class="row">
                 <p class="col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2">The External Academic Committee provides academic assistance outside the organization as part of its mandate to serve the people.</p>
+
                 <div class="row">
                   <div class="col-xs-5 col-xs-offset-1 col-sm-4 col-sm-offset-2 col-md-2">
-                    <img class="img-circle img-responsive" src="http://static.tumblr.com/jyrtrr5/8ldoso2nx/asilo.jpg" alt="Jerome L. Asilo">
+                    <img class="img-circle img-responsive" src="http://static.tumblr.com/jyrtrr5/Zy0osux71/placeholder.jpg" alt="Bianca Maria Laureanna Pedrezuela">
                     <div class="ss-member-profile">
-                      <div class="ss-member-name">Jerome L. Asilo</div>
-                      <div class="ss-member-position">President</div>
-                      <div class="ss-member-course">BS Electrical Engineering</div>
+                      <div class="ss-member-name">Bianca Maria Laureanna Pedrezuela</div>
+                      <div class="ss-member-course">BS Forestry</div>
+                      <div class="ss-member-batch">Batch FISSURE</div>
                     </div>
                   </div>
 
                   <div class="col-xs-5 col-sm-4 col-md-2">
-                    <img class="img-circle img-responsive" src="http://static.tumblr.com/jyrtrr5/IR9oso2o2/morato.jpg" alt="Joshua Morato">
+                    <img class="img-circle img-responsive" src="http://static.tumblr.com/jyrtrr5/Zy0osux71/placeholder.jpg" alt="John Henry Cariño">
                     <div class="ss-member-profile">
-                      <div class="ss-member-name">Joshua Morato</div>
-                      <div class="ss-member-position">Vice President &amp; Internal Academic Committee Head</div>
-                      <div class="ss-member-course">BS Agricultural &amp; Biosystems Engineering</div>
+                      <div class="ss-member-name">John Henry Cariño</div>
+                      <div class="ss-member-course">BS Agriculture</div>
+                      <div class="ss-member-batch">Batch ENZYMES</div>
                     </div>
                   </div>
 
                   <div class="col-xs-5 col-xs-offset-1 col-sm-4 col-sm-offset-2 col-md-2 col-md-pull-2">
-                    <img class="img-circle img-responsive" src="http://static.tumblr.com/jyrtrr5/93Zoso2od/penafiel.jpg" alt="Leira V. Peñafiel">
+                    <img class="img-circle img-responsive" src="http://static.tumblr.com/jyrtrr5/Zy0osux71/placeholder.jpg" alt="Julie Ann Mae Bolo">
                     <div class="ss-member-profile">
-                      <div class="ss-member-name">Leira V. Peñafiel</div>
-                      <div class="ss-member-position">Secretary</div>
-                      <div class="ss-member-course">BS Forestry</div>
+                      <div class="ss-member-name">Julie Ann Mae Bolo</div>
+                      <div class="ss-member-course">BS Agricultural Biotechnology</div>
+                      <div class="ss-member-batch">Batch HELIUM</div>
                     </div>
                   </div>
 
                   <div class="col-xs-5 col-sm-4 col-md-2 col-md-pull-2">
-                    <img class="img-circle img-responsive" src="http://static.tumblr.com/jyrtrr5/2HWoso2oa/pedrezuela.jpg" alt="Bianca Maria Laureanna P. Pedrezuela">
+                    <img class="img-circle img-responsive" src="http://static.tumblr.com/jyrtrr5/Zy0osux71/placeholder.jpg" alt="Darcy Jay Gatdula">
                     <div class="ss-member-profile">
-                      <div class="ss-member-name">Bianca Maria Laureanna P. Pedrezuela</div>
-                      <div class="ss-member-position">External Academic Committee Head</div>
-                      <div class="ss-member-course">BS Forestry</div>
+                      <div class="ss-member-name">Darcy Jay Gatdula</div>
+                      <div class="ss-member-course">BS Chemistry</div>
+                      <div class="ss-member-batch">Batch HELIUM</div>
                     </div>
                   </div>
                 </div>
 
                 <div class="row">
                   <div class="col-xs-5 col-xs-offset-1 col-sm-4 col-sm-offset-2 col-md-2">
-                    <img class="img-circle img-responsive" src="http://static.tumblr.com/jyrtrr5/10eoso2oh/pura.jpg" alt="Kidd Lionel G. Pura">
+                    <img class="img-circle img-responsive" src="http://static.tumblr.com/jyrtrr5/Zy0osux71/placeholder.jpg" alt="Allan Diaz, Jr.">
                     <div class="ss-member-profile">
-                      <div class="ss-member-name">Kidd Lionel G. Pura</div>
-                      <div class="ss-member-position">Finance Committee Head</div>
-                      <div class="ss-member-course">BS Agriculture</div>
+                      <div class="ss-member-name">Allan Diaz, Jr.</div>
+                      <div class="ss-member-course">BS Electrical Engineering</div>
+                      <div class="ss-member-batch">Batch ATOMS</div>
                     </div>
                   </div>
 
                   <div class="col-xs-5 col-sm-4 col-md-2">
-                    <img class="img-circle img-responsive" src="http://static.tumblr.com/jyrtrr5/TOqoso2nz/mejia.jpg" alt="Julius Aaron P. Mejia">
+                    <img class="img-circle img-responsive" src="http://static.tumblr.com/jyrtrr5/Zy0osux71/placeholder.jpg" alt="Mark Castillo">
                     <div class="ss-member-profile">
-                      <div class="ss-member-name">Julius Aaron P. Mejia</div>
-                      <div class="ss-member-position">Socio-Cultural Committee Head</div>
-                      <div class="ss-member-course">MS Microbiology</div>
+                      <div class="ss-member-name">Mark Castillo</div>
+                      <div class="ss-member-course">BS Forestry</div>
+                      <div class="ss-member-batch">Batch ENZYMES</div>
                     </div>
                   </div>
 
                   <div class="col-xs-5 col-xs-offset-1 col-sm-4 col-sm-offset-2 col-md-2 col-md-pull-2">
-                    <img class="img-circle img-responsive" src="http://static.tumblr.com/jyrtrr5/FE9oso2o7/muico.jpg" alt="Darienne Shane Y. Muico">
+                    <img class="img-circle img-responsive" src="http://static.tumblr.com/jyrtrr5/Zy0osux71/placeholder.jpg" alt="Edmar Oducayen">
                     <div class="ss-member-profile">
-                      <div class="ss-member-name">Darienne Shane Y. Muico</div>
-                      <div class="ss-member-position">Membership &amp; Discipline Committee Head</div>
-                      <div class="ss-member-course">BS Nutrition</div>
+                      <div class="ss-member-name">Edmar Oducayen</div>
+                      <div class="ss-member-course">BS Statistics</div>
+                      <div class="ss-member-batch">Batch GENES</div>
+                    </div>
+                  </div>
+
+                  <div class="col-xs-5 col-sm-4 col-md-2 col-md-pull-2">
+                    <img class="img-circle img-responsive" src="http://static.tumblr.com/jyrtrr5/Zy0osux71/placeholder.jpg" alt="Mark Abrogar">
+                    <div class="ss-member-profile">
+                      <div class="ss-member-name">Mark Abrogar</div>
+                      <div class="ss-member-course">BS Computer Science</div>
+                      <div class="ss-member-batch">Batch 4 SENSES</div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-xs-5 col-xs-offset-1 col-sm-4 col-sm-offset-2 col-md-2">
+                    <img class="img-circle img-responsive" src="http://static.tumblr.com/jyrtrr5/Zy0osux71/placeholder.jpg" alt="Julie Rose Laylo">
+                    <div class="ss-member-profile">
+                      <div class="ss-member-name">Julie Rose Laylo</div>
+                      <div class="ss-member-course">BS Computer Science</div>
+                      <div class="ss-member-batch">Batch PSYCHE</div>
+                    </div>
+                  </div>
+
+                  <div class="col-xs-5 col-sm-4 col-md-2">
+                    <img class="img-circle img-responsive" src="http://static.tumblr.com/jyrtrr5/Zy0osux71/placeholder.jpg" alt="Eloiza Mariano-Serate">
+                    <div class="ss-member-profile">
+                      <div class="ss-member-name">Eloiza Mariano-Serate</div>
+                      <div class="ss-member-course">BS Industrial Engineering</div>
+                      <div class="ss-member-batch">Batch AS-IN-DOSTS</div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
 
+            <!-- Finance Committee -->
             <div class="item">
               <h3>Finance Committee</h3>
               <div class="row">
                 <p class="col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2">The Finance Committee is in charge of all monetary and business dealings of the organization, as to provide financial support for the organization’s activities.</p>
+
                 <div class="row">
                   <div class="col-xs-5 col-xs-offset-1 col-sm-4 col-sm-offset-2 col-md-2">
-                    <img class="img-circle img-responsive" src="http://static.tumblr.com/jyrtrr5/8ldoso2nx/asilo.jpg" alt="Jerome L. Asilo">
+                    <img class="img-circle img-responsive" src="http://static.tumblr.com/jyrtrr5/Zy0osux71/placeholder.jpg" alt="Kidd Lionel Pura">
                     <div class="ss-member-profile">
-                      <div class="ss-member-name">Jerome L. Asilo</div>
-                      <div class="ss-member-position">President</div>
-                      <div class="ss-member-course">BS Electrical Engineering</div>
+                      <div class="ss-member-name">Kidd Lionel Pura</div>
+                      <div class="ss-member-course">BS Agriculture</div>
+                      <div class="ss-member-batch">Batch GENES</div>
                     </div>
                   </div>
 
                   <div class="col-xs-5 col-sm-4 col-md-2">
-                    <img class="img-circle img-responsive" src="http://static.tumblr.com/jyrtrr5/IR9oso2o2/morato.jpg" alt="Joshua Morato">
+                    <img class="img-circle img-responsive" src="http://static.tumblr.com/jyrtrr5/Zy0osux71/placeholder.jpg" alt="Claude Michael Salva">
                     <div class="ss-member-profile">
-                      <div class="ss-member-name">Joshua Morato</div>
-                      <div class="ss-member-position">Vice President &amp; Internal Academic Committee Head</div>
-                      <div class="ss-member-course">BS Agricultural &amp; Biosystems Engineering</div>
+                      <div class="ss-member-name">Claude Michael Salva</div>
+                      <div class="ss-member-course">BS Biology</div>
+                      <div class="ss-member-batch">Batch IONS</div>
                     </div>
                   </div>
 
                   <div class="col-xs-5 col-xs-offset-1 col-sm-4 col-sm-offset-2 col-md-2 col-md-pull-2">
-                    <img class="img-circle img-responsive" src="http://static.tumblr.com/jyrtrr5/93Zoso2od/penafiel.jpg" alt="Leira V. Peñafiel">
+                    <img class="img-circle img-responsive" src="http://static.tumblr.com/jyrtrr5/Zy0osux71/placeholder.jpg" alt="Janica Binoya">
                     <div class="ss-member-profile">
-                      <div class="ss-member-name">Leira V. Peñafiel</div>
-                      <div class="ss-member-position">Secretary</div>
-                      <div class="ss-member-course">BS Forestry</div>
+                      <div class="ss-member-name">Janica Binoya</div>
+                      <div class="ss-member-course">BS Agriculture</div>
+                      <div class="ss-member-batch">Batch ATOMS</div>
                     </div>
                   </div>
 
                   <div class="col-xs-5 col-sm-4 col-md-2 col-md-pull-2">
-                    <img class="img-circle img-responsive" src="http://static.tumblr.com/jyrtrr5/2HWoso2oa/pedrezuela.jpg" alt="Bianca Maria Laureanna P. Pedrezuela">
+                    <img class="img-circle img-responsive" src="http://static.tumblr.com/jyrtrr5/Zy0osux71/placeholder.jpg" alt="Shyla Marie Jopia">
                     <div class="ss-member-profile">
-                      <div class="ss-member-name">Bianca Maria Laureanna P. Pedrezuela</div>
-                      <div class="ss-member-position">External Academic Committee Head</div>
-                      <div class="ss-member-course">BS Forestry</div>
+                      <div class="ss-member-name">Shyla Marie Jopia</div>
+                      <div class="ss-member-course">BS Chemical Engineering</div>
+                      <div class="ss-member-batch">Batch DOSTaDOSS</div>
                     </div>
                   </div>
                 </div>
 
                 <div class="row">
                   <div class="col-xs-5 col-xs-offset-1 col-sm-4 col-sm-offset-2 col-md-2">
-                    <img class="img-circle img-responsive" src="http://static.tumblr.com/jyrtrr5/10eoso2oh/pura.jpg" alt="Kidd Lionel G. Pura">
+                    <img class="img-circle img-responsive" src="http://static.tumblr.com/jyrtrr5/Zy0osux71/placeholder.jpg" alt="Niroshana Priyadarsana Sangasingha">
                     <div class="ss-member-profile">
-                      <div class="ss-member-name">Kidd Lionel G. Pura</div>
-                      <div class="ss-member-position">Finance Committee Head</div>
-                      <div class="ss-member-course">BS Agriculture</div>
+                      <div class="ss-member-name">Niroshana Priyadarsana Sangasingha</div>
+                      <div class="ss-member-course">BS Biology</div>
+                      <div class="ss-member-batch">Batch CELLS</div>
                     </div>
                   </div>
 
                   <div class="col-xs-5 col-sm-4 col-md-2">
-                    <img class="img-circle img-responsive" src="http://static.tumblr.com/jyrtrr5/TOqoso2nz/mejia.jpg" alt="Julius Aaron P. Mejia">
+                    <img class="img-circle img-responsive" src="http://static.tumblr.com/jyrtrr5/Zy0osux71/placeholder.jpg" alt="Mary Grace Morado">
                     <div class="ss-member-profile">
-                      <div class="ss-member-name">Julius Aaron P. Mejia</div>
-                      <div class="ss-member-position">Socio-Cultural Committee Head</div>
-                      <div class="ss-member-course">MS Microbiology</div>
+                      <div class="ss-member-name">Mary Grace Morado</div>
+                      <div class="ss-member-course">BS Civil Engineering</div>
+                      <div class="ss-member-batch">Batch ATOMS</div>
                     </div>
                   </div>
 
                   <div class="col-xs-5 col-xs-offset-1 col-sm-4 col-sm-offset-2 col-md-2 col-md-pull-2">
-                    <img class="img-circle img-responsive" src="http://static.tumblr.com/jyrtrr5/FE9oso2o7/muico.jpg" alt="Darienne Shane Y. Muico">
+                    <img class="img-circle img-responsive" src="http://static.tumblr.com/jyrtrr5/Zy0osux71/placeholder.jpg" alt="Benjamin Cunanan">
                     <div class="ss-member-profile">
-                      <div class="ss-member-name">Darienne Shane Y. Muico</div>
-                      <div class="ss-member-position">Membership &amp; Discipline Committee Head</div>
-                      <div class="ss-member-course">BS Nutrition</div>
+                      <div class="ss-member-name">Benjamin Cunanan</div>
+                      <div class="ss-member-course">BS Agriculture</div>
+                      <div class="ss-member-batch">Batch GENES</div>
+                    </div>
+                  </div>
+
+                  <div class="col-xs-5 col-sm-4 col-md-2 col-md-pull-2">
+                    <img class="img-circle img-responsive" src="http://static.tumblr.com/jyrtrr5/Zy0osux71/placeholder.jpg" alt="Jasra Jaafar">
+                    <div class="ss-member-profile">
+                      <div class="ss-member-name">Jasra Jaafar</div>
+                      <div class="ss-member-course">BS Chemical Engineering</div>
+                      <div class="ss-member-batch">Batch ENZYMES</div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-xs-5 col-xs-offset-1 col-sm-4 col-sm-offset-2 col-md-2">
+                    <img class="img-circle img-responsive" src="http://static.tumblr.com/jyrtrr5/Zy0osux71/placeholder.jpg" alt="Mark Cedrick Vinson">
+                    <div class="ss-member-profile">
+                      <div class="ss-member-name">Mark Cedrick Vinson</div>
+                      <div class="ss-member-course">BS Food Technology</div>
+                      <div class="ss-member-batch">Batch GENES</div>
+                    </div>
+                  </div>
+
+                  <div class="col-xs-5 col-sm-4 col-md-2">
+                    <img class="img-circle img-responsive" src="http://static.tumblr.com/jyrtrr5/Zy0osux71/placeholder.jpg" alt="Ian Joy Alonzo">
+                    <div class="ss-member-profile">
+                      <div class="ss-member-name">Ian Joy Alonzo</div>
+                      <div class="ss-member-course">BS Computer Science</div>
+                      <div class="ss-member-batch">Batch The RULESS</div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
 
+            <!-- Membership and Discipline Committee -->
             <div class="item">
               <h3>Membership and Discipline Committee</h3>
               <div class="row">
                 <p class="col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2">The Membership and Discipline Committee spearheads member recruitment efforts as well as in the actuation of disciplinary action for members.</p>
+
                 <div class="row">
                   <div class="col-xs-5 col-xs-offset-1 col-sm-4 col-sm-offset-2 col-md-2">
-                    <img class="img-circle img-responsive" src="http://static.tumblr.com/jyrtrr5/8ldoso2nx/asilo.jpg" alt="Jerome L. Asilo">
+                    <img class="img-circle img-responsive" src="http://static.tumblr.com/jyrtrr5/Zy0osux71/placeholder.jpg" alt="Elaine Espiritu">
                     <div class="ss-member-profile">
-                      <div class="ss-member-name">Jerome L. Asilo</div>
-                      <div class="ss-member-position">President</div>
-                      <div class="ss-member-course">BS Electrical Engineering</div>
+                      <div class="ss-member-name">Elaine Espiritu</div>
+                      <div class="ss-member-course">BS Applied Physics</div>
+                      <div class="ss-member-batch">Batch HELIUM</div>
                     </div>
                   </div>
 
                   <div class="col-xs-5 col-sm-4 col-md-2">
-                    <img class="img-circle img-responsive" src="http://static.tumblr.com/jyrtrr5/IR9oso2o2/morato.jpg" alt="Joshua Morato">
+                    <img class="img-circle img-responsive" src="http://static.tumblr.com/jyrtrr5/Zy0osux71/placeholder.jpg" alt="Jerome Asilo">
                     <div class="ss-member-profile">
-                      <div class="ss-member-name">Joshua Morato</div>
-                      <div class="ss-member-position">Vice President &amp; Internal Academic Committee Head</div>
-                      <div class="ss-member-course">BS Agricultural &amp; Biosystems Engineering</div>
+                      <div class="ss-member-name">Jerome Asilo</div>
+                      <div class="ss-member-course">BS Electrical Engineering</div>
+                      <div class="ss-member-batch">Batch GENES</div>
                     </div>
                   </div>
 
                   <div class="col-xs-5 col-xs-offset-1 col-sm-4 col-sm-offset-2 col-md-2 col-md-pull-2">
-                    <img class="img-circle img-responsive" src="http://static.tumblr.com/jyrtrr5/93Zoso2od/penafiel.jpg" alt="Leira V. Peñafiel">
+                    <img class="img-circle img-responsive" src="http://static.tumblr.com/jyrtrr5/Zy0osux71/placeholder.jpg" alt="Renée Anne Mendoza">
                     <div class="ss-member-profile">
-                      <div class="ss-member-name">Leira V. Peñafiel</div>
-                      <div class="ss-member-position">Secretary</div>
-                      <div class="ss-member-course">BS Forestry</div>
+                      <div class="ss-member-name">Renée Anne Mendoza</div>
+                      <div class="ss-member-course">BS Agriculture</div>
+                      <div class="ss-member-batch">Batch ENZYMES</div>
                     </div>
                   </div>
 
                   <div class="col-xs-5 col-sm-4 col-md-2 col-md-pull-2">
-                    <img class="img-circle img-responsive" src="http://static.tumblr.com/jyrtrr5/2HWoso2oa/pedrezuela.jpg" alt="Bianca Maria Laureanna P. Pedrezuela">
+                    <img class="img-circle img-responsive" src="http://static.tumblr.com/jyrtrr5/Zy0osux71/placeholder.jpg" alt="Sweet Princess Matining">
                     <div class="ss-member-profile">
-                      <div class="ss-member-name">Bianca Maria Laureanna P. Pedrezuela</div>
-                      <div class="ss-member-position">External Academic Committee Head</div>
-                      <div class="ss-member-course">BS Forestry</div>
+                      <div class="ss-member-name">Sweet Princess Matining</div>
+                      <div class="ss-member-course">BS Agricultural Biotechnology</div>
+                      <div class="ss-member-batch">Batch 4 SENSES</div>
                     </div>
                   </div>
                 </div>
 
                 <div class="row">
                   <div class="col-xs-5 col-xs-offset-1 col-sm-4 col-sm-offset-2 col-md-2">
-                    <img class="img-circle img-responsive" src="http://static.tumblr.com/jyrtrr5/10eoso2oh/pura.jpg" alt="Kidd Lionel G. Pura">
+                    <img class="img-circle img-responsive" src="http://static.tumblr.com/jyrtrr5/Zy0osux71/placeholder.jpg" alt="Daimler Flores">
                     <div class="ss-member-profile">
-                      <div class="ss-member-name">Kidd Lionel G. Pura</div>
-                      <div class="ss-member-position">Finance Committee Head</div>
-                      <div class="ss-member-course">BS Agriculture</div>
+                      <div class="ss-member-name">Daimler Flores</div>
+                      <div class="ss-member-course">BS Computer Science</div>
+                      <div class="ss-member-batch">Batch ENZYMES</div>
                     </div>
                   </div>
 
                   <div class="col-xs-5 col-sm-4 col-md-2">
-                    <img class="img-circle img-responsive" src="http://static.tumblr.com/jyrtrr5/TOqoso2nz/mejia.jpg" alt="Julius Aaron P. Mejia">
+                    <img class="img-circle img-responsive" src="http://static.tumblr.com/jyrtrr5/Zy0osux71/placeholder.jpg" alt="John Joemmel Rodelas">
                     <div class="ss-member-profile">
-                      <div class="ss-member-name">Julius Aaron P. Mejia</div>
-                      <div class="ss-member-position">Socio-Cultural Committee Head</div>
-                      <div class="ss-member-course">MS Microbiology</div>
+                      <div class="ss-member-name">John Joemmel Rodelas</div>
+                      <div class="ss-member-course">BS Chemical Engineering</div>
+                      <div class="ss-member-batch">Batch ENZYMES</div>
                     </div>
                   </div>
 
                   <div class="col-xs-5 col-xs-offset-1 col-sm-4 col-sm-offset-2 col-md-2 col-md-pull-2">
-                    <img class="img-circle img-responsive" src="http://static.tumblr.com/jyrtrr5/FE9oso2o7/muico.jpg" alt="Darienne Shane Y. Muico">
+                    <img class="img-circle img-responsive" src="http://static.tumblr.com/jyrtrr5/Zy0osux71/placeholder.jpg" alt="Catherine Morado">
                     <div class="ss-member-profile">
-                      <div class="ss-member-name">Darienne Shane Y. Muico</div>
-                      <div class="ss-member-position">Membership &amp; Discipline Committee Head</div>
-                      <div class="ss-member-course">BS Nutrition</div>
+                      <div class="ss-member-name">Catherine Morado</div>
+                      <div class="ss-member-course">BS Chemical Engineering</div>
+                      <div class="ss-member-batch">Batch ATOMS</div>
+                    </div>
+                  </div>
+
+                  <div class="col-xs-5 col-sm-4 col-md-2 col-md-pull-2">
+                    <img class="img-circle img-responsive" src="http://static.tumblr.com/jyrtrr5/Zy0osux71/placeholder.jpg" alt="John Emmanuel Tandang">
+                    <div class="ss-member-profile">
+                      <div class="ss-member-name">John Emmanuel Tandang</div>
+                      <div class="ss-member-course">BS Agricultural Biotechnology</div>
+                      <div class="ss-member-batch">Batch STEPS</div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-xs-5 col-xs-offset-1 col-sm-4 col-sm-offset-2 col-md-2">
+                    <img class="img-circle img-responsive" src="http://static.tumblr.com/jyrtrr5/Zy0osux71/placeholder.jpg" alt="Vhej Villafuerte">
+                    <div class="ss-member-profile">
+                      <div class="ss-member-name">Vhej Villafuerte</div>
+                      <div class="ss-member-course">BS Food Technology</div>
+                      <div class="ss-member-batch">Batch DOSTaDOSS</div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
 
+            <!-- Socio-Cultural Committee -->
             <div class="item">
               <h3>Socio-Cultural Committee</h3>
               <div class="row">
                 <p class="col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2">The Socio-Cultural Committee aims to promote camaraderie and teamwork among members of the organization and other sectors through actuation of intra- and inter-organizational activities.</p>
+
                 <div class="row">
                   <div class="col-xs-5 col-xs-offset-1 col-sm-4 col-sm-offset-2 col-md-2">
-                    <img class="img-circle img-responsive" src="http://static.tumblr.com/jyrtrr5/8ldoso2nx/asilo.jpg" alt="Jerome L. Asilo">
+                    <img class="img-circle img-responsive" src="http://static.tumblr.com/jyrtrr5/Zy0osux71/placeholder.jpg" alt="Julius Aaron Mejia">
                     <div class="ss-member-profile">
-                      <div class="ss-member-name">Jerome L. Asilo</div>
-                      <div class="ss-member-position">President</div>
-                      <div class="ss-member-course">BS Electrical Engineering</div>
+                      <div class="ss-member-name">Julius Aaron Mejia</div>
+                      <div class="ss-member-course">MS Microbiology</div>
+                      <div class="ss-member-batch">Batch FISSURE</div>
                     </div>
                   </div>
 
                   <div class="col-xs-5 col-sm-4 col-md-2">
-                    <img class="img-circle img-responsive" src="http://static.tumblr.com/jyrtrr5/IR9oso2o2/morato.jpg" alt="Joshua Morato">
+                    <img class="img-circle img-responsive" src="http://static.tumblr.com/jyrtrr5/Zy0osux71/placeholder.jpg" alt="Leira Peñafiel">
                     <div class="ss-member-profile">
-                      <div class="ss-member-name">Joshua Morato</div>
-                      <div class="ss-member-position">Vice President &amp; Internal Academic Committee Head</div>
-                      <div class="ss-member-course">BS Agricultural &amp; Biosystems Engineering</div>
+                      <div class="ss-member-name">Leira Peñafiel</div>
+                      <div class="ss-member-course">BS Forestry</div>
+                      <div class="ss-member-batch">Batch ENZYMES</div>
                     </div>
                   </div>
 
                   <div class="col-xs-5 col-xs-offset-1 col-sm-4 col-sm-offset-2 col-md-2 col-md-pull-2">
-                    <img class="img-circle img-responsive" src="http://static.tumblr.com/jyrtrr5/93Zoso2od/penafiel.jpg" alt="Leira V. Peñafiel">
+                    <img class="img-circle img-responsive" src="http://static.tumblr.com/jyrtrr5/Zy0osux71/placeholder.jpg" alt="Ramon Miguel Comia">
                     <div class="ss-member-profile">
-                      <div class="ss-member-name">Leira V. Peñafiel</div>
-                      <div class="ss-member-position">Secretary</div>
-                      <div class="ss-member-course">BS Forestry</div>
+                      <div class="ss-member-name">Ramon Miguel Comia</div>
+                      <div class="ss-member-course">BS Chemical Engineering</div>
+                      <div class="ss-member-batch">Batch ENZYMES</div>
                     </div>
                   </div>
 
                   <div class="col-xs-5 col-sm-4 col-md-2 col-md-pull-2">
-                    <img class="img-circle img-responsive" src="http://static.tumblr.com/jyrtrr5/2HWoso2oa/pedrezuela.jpg" alt="Bianca Maria Laureanna P. Pedrezuela">
+                    <img class="img-circle img-responsive" src="http://static.tumblr.com/jyrtrr5/Zy0osux71/placeholder.jpg" alt="Rosa Ella Felipe">
                     <div class="ss-member-profile">
-                      <div class="ss-member-name">Bianca Maria Laureanna P. Pedrezuela</div>
-                      <div class="ss-member-position">External Academic Committee Head</div>
-                      <div class="ss-member-course">BS Forestry</div>
+                      <div class="ss-member-name">Rosa Ella Felipe</div>
+                      <div class="ss-member-course">BS Biology</div>
+                      <div class="ss-member-batch">Batch DOSTaDOSS</div>
                     </div>
                   </div>
                 </div>
 
                 <div class="row">
                   <div class="col-xs-5 col-xs-offset-1 col-sm-4 col-sm-offset-2 col-md-2">
-                    <img class="img-circle img-responsive" src="http://static.tumblr.com/jyrtrr5/10eoso2oh/pura.jpg" alt="Kidd Lionel G. Pura">
+                    <img class="img-circle img-responsive" src="http://static.tumblr.com/jyrtrr5/Zy0osux71/placeholder.jpg" alt="Rodolph Victor Delos Reyes">
                     <div class="ss-member-profile">
-                      <div class="ss-member-name">Kidd Lionel G. Pura</div>
-                      <div class="ss-member-position">Finance Committee Head</div>
-                      <div class="ss-member-course">BS Agriculture</div>
+                      <div class="ss-member-name">Rodolph Victor Delos Reyes</div>
+                      <div class="ss-member-course">BS Mathematics and Science Teaching</div>
+                      <div class="ss-member-batch">Batch FISSURE</div>
                     </div>
                   </div>
 
                   <div class="col-xs-5 col-sm-4 col-md-2">
-                    <img class="img-circle img-responsive" src="http://static.tumblr.com/jyrtrr5/TOqoso2nz/mejia.jpg" alt="Julius Aaron P. Mejia">
+                    <img class="img-circle img-responsive" src="http://static.tumblr.com/jyrtrr5/Zy0osux71/placeholder.jpg" alt="Darienne Shane Muico">
                     <div class="ss-member-profile">
-                      <div class="ss-member-name">Julius Aaron P. Mejia</div>
-                      <div class="ss-member-position">Socio-Cultural Committee Head</div>
-                      <div class="ss-member-course">MS Microbiology</div>
+                      <div class="ss-member-name">Darienne Shane Muico</div>
+                      <div class="ss-member-course">BS Nutrition</div>
+                      <div class="ss-member-batch">Batch ENZYMES</div>
                     </div>
                   </div>
 
                   <div class="col-xs-5 col-xs-offset-1 col-sm-4 col-sm-offset-2 col-md-2 col-md-pull-2">
-                    <img class="img-circle img-responsive" src="http://static.tumblr.com/jyrtrr5/FE9oso2o7/muico.jpg" alt="Darienne Shane Y. Muico">
+                    <img class="img-circle img-responsive" src="http://static.tumblr.com/jyrtrr5/Zy0osux71/placeholder.jpg" alt="Janessa Binoya">
                     <div class="ss-member-profile">
-                      <div class="ss-member-name">Darienne Shane Y. Muico</div>
-                      <div class="ss-member-position">Membership &amp; Discipline Committee Head</div>
-                      <div class="ss-member-course">BS Nutrition</div>
+                      <div class="ss-member-name">Janessa Binoya</div>
+                      <div class="ss-member-course">BS Agricultural Biotechnology</div>
+                      <div class="ss-member-batch">Batch CELLS</div>
+                    </div>
+                  </div>
+
+                  <div class="col-xs-5 col-sm-4 col-md-2 col-md-pull-2">
+                    <img class="img-circle img-responsive" src="http://static.tumblr.com/jyrtrr5/Zy0osux71/placeholder.jpg" alt="Renz Gilbert Almenario">
+                    <div class="ss-member-profile">
+                      <div class="ss-member-name">Renz Gilbert Almenario</div>
+                      <div class="ss-member-course">BS Chemical Engineering</div>
+                      <div class="ss-member-batch">Batch CELLS</div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-xs-5 col-xs-offset-1 col-sm-4 col-sm-offset-2 col-md-2">
+                    <img class="img-circle img-responsive" src="http://static.tumblr.com/jyrtrr5/Zy0osux71/placeholder.jpg" alt="Jozylyn Manansala">
+                    <div class="ss-member-profile">
+                      <div class="ss-member-name">Jozylyn Manansala</div>
+                      <div class="ss-member-course">BS Civil Engineering</div>
+                      <div class="ss-member-batch">Batch The RULESS</div>
+                    </div>
+                  </div>
+
+                  <div class="col-xs-5 col-sm-4 col-md-2">
+                    <img class="img-circle img-responsive" src="http://static.tumblr.com/jyrtrr5/Zy0osux71/placeholder.jpg" alt="Liezel Matanguihan">
+                    <div class="ss-member-profile">
+                      <div class="ss-member-name">Liezel Matanguihan</div>
+                      <div class="ss-member-course">BS Forestry</div>
+                      <div class="ss-member-batch">Batch ENZYMES</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Advisers -->
+            <div class="item">
+              <h3>Advisers</h3>
+              <div class="row">
+                <p class="col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2"></p>
+
+                <div class="row">
+                  <div class="col-xs-5 col-xs-offset-1 col-sm-4 col-sm-offset-2 col-md-2">
+                    <img class="img-circle img-responsive" src="http://static.tumblr.com/jyrtrr5/Zy0osux71/placeholder.jpg" alt="Rona Camille Lizardo">
+                    <div class="ss-member-profile">
+                      <div class="ss-member-name">Rona Camille Lizardo</div>
+                      <div class="ss-member-position">Senior Adviser</div>
+                    </div>
+                  </div>
+
+                  <div class="col-xs-5 col-sm-4 col-md-2">
+                    <img class="img-circle img-responsive" src="http://static.tumblr.com/jyrtrr5/Zy0osux71/placeholder.jpg" alt="Diane Belan">
+                    <div class="ss-member-profile">
+                      <div class="ss-member-name">Diane Belan</div>
+                      <div class="ss-member-position">Junior Adviser</div>
+                    </div>
+                  </div>
+
+                  <div class="col-xs-5 col-xs-offset-1 col-sm-4 col-sm-offset-2 col-md-2 col-md-pull-2">
+                    <img class="img-circle img-responsive" src="http://static.tumblr.com/jyrtrr5/Zy0osux71/placeholder.jpg" alt="Reifrey Lascano">
+                    <div class="ss-member-profile">
+                      <div class="ss-member-name">Reifrey Lascano</div>
+                      <div class="ss-member-position">Junior Adviser</div>
+                    </div>
+                  </div>
+
+                  <div class="col-xs-5 col-sm-4 col-md-2 col-md-pull-2">
+                    <img class="img-circle img-responsive" src="http://static.tumblr.com/jyrtrr5/Zy0osux71/placeholder.jpg" alt="Clinton Poserio">
+                    <div class="ss-member-profile">
+                      <div class="ss-member-name">Clinton Poserio</div>
+                      <div class="ss-member-position">Junior Adviser</div>
                     </div>
                   </div>
                 </div>
@@ -1182,7 +855,7 @@
     <!-- Events -->
     <section class="ss-section" id="ss-events">
       <div class="container text-center">
-        <h2>Events</h2>
+        <h2>Our Events</h2>
 
         <div class="row">
           <p class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 text-left scroll-reveal" id="ss-event-intro">In line with its mandate to serve, lead, and excel, the UPLB DOST Scholars' Society conducts events which aim to provide <strong>selfless service</strong> to the Filipino people, hone skills of its members and the youth to lead, and promote an excellent Philippines for its betterment and for the generations to come.</p>
@@ -1190,17 +863,15 @@
           <div class="ss-event-profile col-xs-10 col-xs-offset-1 col-sm-5 col-sm-offset-1 col-md-4 col-md-offset-2 scroll-reveal">
             <img class="img-responsive" src="http://static.tumblr.com/jyrtrr5/Fizoso2nl/scholars-week.jpg" alt="Scholars' Week">
             <h3 class="ss-event-name">Scholars' Week</h3>
-            <p class="ss-event-description text-left">This week-long celebration aims to celebrate the spirit of scholarship as the organization will hold several activities to provide service to fellow DOST scholars and welcome fellow UPLB as the semester starts.</p>
+            <p class="ss-event-description text-left">This week-long celebration aims to celebrate the spirit of scholarship as the organization will hold several activities to provide service to fellow DOST scholars and welcome fellow UPLB students as the semester starts.</p>
           </div>
 
           <div class="ss-event-profile col-xs-10 col-xs-offset-1 col-sm-5 col-sm-pull-1 col-md-4 scroll-reveal">
             <img class="img-responsive" src="http://static.tumblr.com/jyrtrr5/R25oso2ni/bbb-quiz-con.jpg" alt="Blunders, Breakthroughs, Bahala Na Quiz Contest">
             <h3 class="ss-event-name">Blunders, Breakthroughs, Bahala Na Quiz Contest</h3>
-            <p class="ss-event-description text-left">As an avenue to celebrate the wonders of science and technology in the University, the organization conducts an annual quiz contest in relation to the S&amp;T, also as an opportunity of its promotion.</p>
+            <p class="ss-event-description text-left">As an avenue to celebrate the wonders of Science and Technology in the University, the organization conducts an annual quiz contest in relation to S&amp;T, also as an opportunity of its promotion.</p>
           </div>
         </div>
-
-        <a href="#" class="btn btn-default btn-md scroll-reveal" role="button">MORE EVENTS</a>
       </div>
     </section>
 
@@ -1210,11 +881,9 @@
         <h2>SIKAT</h2>
 
         <div class="row text-center">
-          <p class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 scroll-reveal">SIKAT is the official newsletter of the UPLB Department of Science and Technology Scholars’ Society. It features the highlights of the organization’s unending desire and passion to serve, lead, and excel.</p>
+          <p class="lead col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2 scroll-reveal">The official newsletter of the UPLB Department of Science and Technology Scholars’ Society. It features the highlights of the organization’s unending desire and passion to serve, lead, and excel.</p>
           <br>
         </div>
-
-        <a href="#" class="btn btn-default btn-md scroll-reveal" role="button">READ MORE</a>
       </div>
     </section>
 
@@ -1222,33 +891,48 @@
     <section id="ss-map"></section>
 
     <!-- Contact -->
-    <section class="ss-section hidden" id="ss-contact">
+    <section class="ss-section" id="ss-contact">
       <div class="container text-center">
-        <div class="row text-center">
-          <h2>Get In Touch</h2>
-          <p>We would love to hear from you.</p>
-          <div class="col-xs-10 col-xs-offset-1 col-sm-4">
-            <h3>Social News</h3>
-            <div class="fb-page hidden" data-href="https://www.facebook.com/uplbdostscholarssociety/" data-height="260" data-height="390" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/uplbdostscholarssociety/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/uplbdostscholarssociety/"></a></blockquote></div>
+        <h2>Contact Us</h2>
+        <div class="row">
+          <p class="col-xs-10 col-xs-offset-1">Get the latest news from our organization right in your inbox.</p>
+        </div>
+        <div class="row">
+          <form action="https:////uplbdostss1985.us16.list-manage.com/subscribe/post?u=ddc8285bb2e698653ae6c7773&amp;id=9436d4b1df" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="form-inline validate col-xs-10 col-xs-offset-1 col-md-10 col-md-offset-1" target="_blank" novalidate>
+            <div class="form-group">
+              <input type="email" value="" name="EMAIL" class="required email form-control" id="mce-EMAIL" placeholder="Email address">
+            </div>
+            <div class="form-group">
+              <input type="text" value="" name="FNAME" class="required form-control" id="mce-FNAME" placeholder="First name">
+            </div>
+            <div class="form-group">
+              <input type="text" value="" name="LNAME" class="required form-control" id="mce-LNAME" placeholder="Last name">
+            </div>
+            <button type="submit" class="btn btn-default" name="subscribe" id="mc-embedded-subscribe">Subscribe</button>
+          </form>
+        </div>
+        <br><br><br>
+        <div class="row">
+          <div class="col-xs-10 col-xs-offset-1 col-md-3 col-md-offset-1">
+            <h4>Say Hi!</h4>
             <br>
-            <a class="twitter-timeline" data-lang="en" data-width="390" data-height="260" href="https://twitter.com/uplbdostss1985">Tweets by uplbdostss1985</a> <script async src="http://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <p class="text-left">
+            <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> uplbdostss1985@gmail.com<br>
+            <span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span> 008 Obcemea's Apts. Unit B, Demarses Subd., Batong Malake, Los Ban&#771;os, Laguna<br>
+            <span class="glyphicon glyphicon-earphone" aria-hidden="true"></span> (+63) 926 229 5954<br>Leira V. Peñafiel, Secretary
+            </p>
           </div>
-          <div class="col-xs-10 col-xs-offset-1 col-sm-4">
-            <h3>Contact Us</h3>
+          <div class="col-xs-10 col-xs-offset-1 col-md-7 col-md-pull-1">
+            <h4>Social News</h4>
+            <br>
             <div class="row">
-              <i class="col-sm-2 col-sm-offset-1 fa fa-envelope fa-2x" aria-hidden="true"></i>
-              <p class="col-sm-8">uplbdostss1985@gmail.com</p>
+              <div class="col-md-6">
+                <a class="twitter-timeline" data-lang="en" data-width="390" data-height="300" href="https://twitter.com/uplbdostss1985">Tweets by uplbdostss1985</a> <script async src="http://platform.twitter.com/widgets.js" charset="utf-8"></script>
+              </div>
+              <div class="col-md-6">
+                <div class="fb-page hidden" data-href="https://www.facebook.com/uplbdostscholarssociety/" data-height="260" data-height="390" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/uplbdostscholarssociety/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/uplbdostscholarssociety/"></a></blockquote></div>
+              </div>
             </div>
-            <div class="row">
-              <i class="col-sm-2 col-sm-offset-1 fa fa-home fa-2x" aria-hidden="true"></i>
-              <p class="col-sm-8">008 Obcemea's Apts. Unit B, Demarses Subd., Batong Malake, Los Ban&#771;os, Laguna</p>
-            </div>
-            <div class="row">
-              <i class="col-sm-2 col-sm-offset-1 fa fa-mobile fa-2x" aria-hidden="true"></i>
-              <p class="col-sm-8">(+63) 926 229 5954<br>Leira V. Peñafiel, Secretary</p>
-            </div>
-          </div>
-          <div class="col-xs-10 col-xs-offset-1 col-sm-4">
           </div>
         </div>
       </div>
@@ -1268,10 +952,7 @@
     <!-- Bootstrap JS -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <!-- Google Map -->
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD9uA0ziMYVfgweidaAcYs9sLXZg3I0RnQ&callback=ssMap">
-    </script>
-    <!-- Custom JS -->
-    <script src="http://static.tumblr.com/jyrtrr5/Ddcosntnq/custom.min.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD9uA0ziMYVfgweidaAcYs9sLXZg3I0RnQ&callback=ssMap"></script>
     <!-- Affix -->
     <script>
       $('#ssNavbar').affix({
@@ -1280,5 +961,25 @@
         }
       })
     </script>
+    <!-- MailChimp -->
+    <script src='http://s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+    <script>
+      (function($){
+        window.fnames = new Array();
+        window.ftypes = new Array();
+
+        fnames[0]='EMAIL';
+        ftypes[0]='email';
+        fnames[1]='FNAME';
+        ftypes[1]='text';
+        fnames[2]='LNAME';
+        ftypes[2]='text';
+      } (jQuery));
+
+      var $mcj = jQuery.noConflict(true);
+    </script>
+    <!-- Custom JS -->
+    <script src="js/custom.js"></script>
+
   </body>
 </html>
